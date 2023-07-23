@@ -1,0 +1,1755 @@
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>NETVTLI INICIO</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">    
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  
+<!-- STYLE BOTONES INFERIORES -->
+
+<style type="text/css">
+a:link, a:visited {
+  color:white;
+  text-decoration: none;
+  display: inline-block;
+}
+
+h9 {
+  color:#FFFFFF;
+  
+}
+
+p {
+  text-decoration: overline;
+}
+
+
+/*VER AHORA PLAY  */
+.main2-color {
+    color:#FFFFFF;
+	font-size: 1rem;
+}
+
+.btnt {
+  background-color: #0033FF;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.btnt:hover {opacity: 5}
+
+/*Menu 2*/
+.icon-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color:#000000;
+  overflow: auto;
+  
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 10px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  
+}
+
+.icon-bar a:hover {
+  background-color:#0033FF;
+  border-radius:55px;
+  transform: translateY(7px);
+}
+
+.active {
+  background-color:#0033FF;
+}
+</style>  
+<style
+type="text/css">*{margin:0;padding:0;box-sizing:border-box;font-family:'Raleway';}body{background:#000000;}div .xstv{overflow-x:scroll;overflow-y:hidden;white-space:nowrap;margin:1px;border-radius:7px;}#header{position:fixed;width:100%;top:-5px;}footer{background:#000;display:flex;width:100%;bottom:0;justify-content:space-around;align-items:center;padding:6px 2px;position:fixed;left:0;right:0px;color:#fff;}footer div{font-size:10px;text-align:center;justify-content:center;align-items:center;}footer i{padding-left:0px;}/*footer end*/footer img{height:20px;width:20px;margin-bottom:3px;}footer svg{height:20px;width:20px;margin-bottom:3px;}footer span{transform:scale(1);}#s-f{margin-bottom:40px;}.slider{width:100%;margin:auto;overflow:hidden;}.slider ul{display:flex;padding:0;width:400%;animation:cambio 10s infinite alternate linear;}.slider li{width:100%;list-style:none;}.slider img{width:100%;}@keyframes cambio{0% {margin-left: 0;}20% {margin-left: 0;}25% {margin-left: -100%;}45% {margin-left: -100%;}50% {margin-left: -200%;}70% {margin-left: -200%;}75% {margin-left: -300%;}100% {margin-left: -300%;}} 
+</style>
+<style>#navbar {background: #000000;width: 100%;height: 3rem;display: grid;grid-template-columns: repeat(3, 1fr);justify-items: center;align-items: center;justify-content: center;outline: 1px solid #FF0000}#navbar .logonavbar {width: 12rem;height: 100%;object-fit: cover}#navbar a {position: absolute;width: 16%;margin: 0;padding: 0;height: 3rem;color: #FF0000;right: 0;display: grid;justify-items: center;align-items: center}#navbar #buscador {right: 4rem}#modal1 {position: fixed;top: 0;left: 0;width: 70%;height: 100vh;background: #000000;display: none;justify-items: center;align-items: start;grid-template-columns: repeat(1, 1fr);overflow: auto;z-index: 999999}#modal1 .cerrarmodal1 {position: fixed;right: 0;height: 100vh;width: 30%;background: #00000000}#modal1 .banner {position: absolute;left: 0;height: 10rem;width: 100%;background: #FFFFFF;outline: 1px solid #FF0000}#modal1 .banner img {width: 100%;height: 100%;object-fit: cover}/* area del contenido del navbar */#modal1 .contenido {position: relative;top: 10.4rem;left: 0;width: 100%;height: 14rem;overflow: hidden}#modal1 .contenido ul {margin: 0;width: 100%;height: 12rem;list-style: none;padding: 0 8px;display: grid;justify-items: start;align-items: center;grid-template-columns: repeat(1, 1fr);grid-gap: 1.4rem}#modal1 .contenido ul li {width: 100%;height: 100%;align-items: center;justify-items: start;color: #CC0000;display: flex;justify-content: flex-start;font-family: Arial, Helvetica, sans-serif}#modal1 .contenido ul li a {text-decoration: none;height: 100%;width: 100%;justify-content: start;align-items: center;display: flex;font-size: 18px;margin: 0 4px;padding: 0 8px;overflow: hidden;color: #ffffff}#modal1 .contenido ul li a: hover {color: #FF0000}/* area del contenido del navbar redes */#modal1 .redes {width: 100%;height: 3rem;display: grid;top: 25rem;position: absolute}#modal1 .redes span {width: 100%;height: 0.06rem;background: #FF0000}#modal1 .redes ul {margin: 0;padding: 0;list-style: none;width: 100%;height: 70%;display: grid;grid-template-columns: repeat(3, 1fr);justify-items: center;align-items: center}#modal1 .redes ul li {width: 70%;height: 1.6rem;display: flex;justify-content: center;align-items: center;color: #000000;background: #ffffff;border-radius: 0px}#modal1 .redes ul li: hover {color: #FF0000;background: #000000;outline: 1px solid #FF0000}/* stilos-para-la-seccion-del-banner */#banner {position: relative;width: 100%;height: 8rem;background: #FF0000;padding: 6px;margin: 0;display: flex;justify-content: flex-start;align-items: center;border-radius: 0px}#banner ul {list-style: none;margin: 0;padding: 0;width: 100%;height: 100%;overflow: auto;display: flex;flex-wrap: wrap;flex-direction: column;position: relative}#banner ul li {width: 100%;height: 100%;padding: 0px 6px}#banner ul li a {display: contents}#banner ul li a img {width: 100%;height: 100%;object-fit: cover;border-radius: 12px}#banner ul li a h6 {margin: 0;padding: 0 4px;position: absolute;top: 0;background: #000000;width: 96.4%;height: 100%;overflow: hidden;display: flex;justify-content: center;align-items: center;text-align: center;color: rgb(255 255 255);font-family: sans-serif;font-size: 22px;border-radius: 5px}#banner ul li a h6: hover {color: #000000;background: #ffffff6b;}/* stilos-del-pie-de-pagina */#piedpagina {position: relative;width: 100%;height: 2rem;background: #000000;color: #f0f8ff;outline: 1px solid #FF0000;display: flex;align-items: center;justify-content: center;top: 0}#piedpagina h6 {margin: 0;padding: 0;font-size: 20px;font-family: Arial, Helvetica, sans-serif}#modal1 .cerrarmodal1 {width: 60%}/* ajuste del area del carousel de bootstrap */.carousel.pointer-event {height: 14rem}.carousel-inner {height: 14rem}.carousel-item {height: 14rem}#modal1 .cerrarmodal1 {width: 60%}#modal1 .contenido ul li a {font-size: 15px}}#piedpagina {position: relative;width: 100%;height: 2rem;background: #000000;color: #f0f8ff;outline: 1px solid #FF0000;display: flex;align-items: center;justify-content: center;top: 0}#piedpagina h6 {margin: 0;padding: 0;font-size: 20px;font-family: Arial, Helvetica, sans-serif}#modal1 .cerrarmodal1 {width: 60%}</style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Poppins', sans-serif;}::selection{color: #FF0000;background: red;}body{padding: 0px;}.wrapper{margin: 30px auto;max-width: 1100px;}.wrapper nav{display: flex;justify-content: center;}.wrapper .items{display: flex;max-width: 720px;width: 100%;justify-content: space-between;}.items span{padding: 70px 25px;font-size: 10px;font-weight: 500;cursor: pointer;color: red;border: 1px solid red;transition: all 0.3s ease;}.items span.active,.items span:hover{color: #FFFFFF;background: red;}.gallery{display: flex;flex-wrap: wrap;margin-top: 30px;}.gallery .image{width: calc(100% / 4);padding: 1px;}.gallery .image span{display: flex;width: 100%;overflow: hidden;}.gallery .image img{width: 100%;vertical-align: middle;transition: all 0.3s ease;cursor: pointer;}.gallery .image:hover img{transform: scale(1.1);}.gallery .image.hide{display: none;}.gallery .image.show{animation: animate 0.4s ease;}@keyframes animate {0%{transform: scale(0.5);}100%{transform: scale(1);}}@media (max-width: 1000px) {.gallery .image{width: calc(100% / 3);}}@media (min-width: 1360px) {.gallery {margin-left: -10%;margin-right: -10%;}}@media (max-width: 800px) {.gallery .image{width: calc(100% / 3);}}@media (max-width: 700px) {.wrapper nav .items{max-width: 1000px;}nav .items span{padding: 7px 15px;}}@media (max-width: 600px) {.wrapper{margin: 20px auto;}.wrapper nav .items{overflow: auto;}nav .items span{margin: 5px;}.gallery .image{width: calc(100% / 3);}}</style>
+<body class="hidden">    
+    <div id="navbar">
+        <img class="logonavbar" src="https://i.ibb.co/C97MNR3/Picsart-23-02-04-19-41-47-253.png" alt="logo">
+
+        <a id="buscador" href="go:buscador"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
+          </svg></a>
+
+        <a id="burger" href="javascript:abrirmodal1()"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-justify" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"></path>
+          </svg></a>
+    </div>
+
+<!-- area para el modal del navbar -->
+    <div id="modal1">
+        <a class="cerrarmodal1" href="javascript:cerrarmodal1()"></a>
+    <!-- area del banner -->
+        <div class="banner">
+            <img src="https://i.ibb.co/VgKYvSR/Picsart-23-02-04-20-03-37-290.jpg" alt="banner">
+        </div>
+    <!-- area del contenido -->
+        <div class="contenido">
+            <ul>
+            <!-- boton de inicio -->
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"></path>
+                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"></path>
+                  </svg><a href="go:inicio">Inicio</a>
+                </li>
+            <!-- boton de categorias -->
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-folder-fill" viewBox="0 0 24 24">
+                    <path d="M9 10v8l7-4zm12-4h-7.58l3.29-3.29L16 2l-4 4h-.03l-4-4l-.69.71L10.56 6H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 14H3V8h18v12z"></path>
+    </svg><a href="https://sfntv.xyz/inicio">Ver Canales de TV</a>
+                </li>
+ <!-- boton de Política de Privacidad -->
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-diamond-fill" viewBox="0 0 16 16">
+                    <path d="M9.05.435c-.58-.58-1.52-.58-2.1 0L.436 6.95c-.58.58-.58 1.519 0 2.098l6.516 6.516c.58.58 1.519.58 2.098 0l6.516-6.516c.58-.58.58-1.519 0-2.098L9.05.435zM8 4c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995A.905.905 0 0 1 8 4zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+                  </svg><a target="_blank" href="go:acciones">Historial de Reproducción</a>
+                </li>
+            <!-- boton de salir de la app -->
+                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-bar-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M12.5 15a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5zM10 8a.5.5 0 0 1-.5.5H3.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L3.707 7.5H9.5a.5.5 0 0 1 .5.5z"></path>
+                  </svg><a target="_blank" href="http://action_exit">Salir de Netvtli</a>
+                </li>
+            </ul>
+        </div>
+    <!-- area de las redes -->
+        <div class="redes">
+            <span></span>
+            <ul>
+           
+            <!-- boton de Instagram -->
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+              </svg><a target="_blank" href="http://www.e-droid.net/privacy.php?ida=1930220&idl=es"></a>
+            </li>
+            <!-- boton de Telegram -->
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"></path>
+              </svg><a target="_blank" href="http://www.e-droid.net/privacy.php?ida=1930220&idl=es"></a>
+            </li>
+            <!-- boton de Wahttsap -->
+            <li><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"></path>
+              </svg><a target="_blank" href="http://www.e-droid.net/privacy.php?ida=1930220&idl=es"></a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</head>
+
+
+<div></div><div></div><ul></ul>
+<!-- Slider Portada -->
+<div class="slider">
+<ul><li><a href="go:crater"><img alt="" src="https://cdn.playpilot.tech/babecf5cf97611edbd300a58a9feac02/src/img?optimizer=image&quality=75&width=1280&aspect_ratio=16%3A9"></a></li>
+<li><a href="PELIS/Fast y Furious X (2023).html"><img alt="" src="https://www.themoviedb.org/t/p/w1000_and_h563_face/fSd5MjJNcauyEbHuzUdCE1TKttK.jpg"></a></li>
+<li><a href="go:assassincl"><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R4PSzpitGp0CL-_Rm_eTOTF-z1gCqd_f_A&usqp=CAU" width="60px"></a></li>
+<li><a href="go:lamadre"><img alt="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFPAjy0MfCKMDJc4hFOmm72jK4XLgbMKbtRA&usqp=CAU"></a></li></ul></div>
+
+
+
+<body bgcolor="black">
+  <div class="wrapper">
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">Estrenos</span>
+        <span class="item" data-name="accion">Accion</span>
+        <span class="item" data-name="drama">Drama</span>
+        <span class="item" data-name="terror">Terror</span>
+        <span class="item" data-name="comedia">Comedia</span>
+        <span class="item" data-name="animacion">Animacion</span>
+                <span class="item" data-name="documental">Documental</span>                 
+                <span class="item" data-name="cine">Cine</span>        
+      </div>
+    </nav>
+    <div class="gallery">
+
+
+<a href="PELIS/Barbie (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/fNtqD4BTFj0Bgo9lyoAtmNFzxHN.jpg" alt=""></span></a></div>
+<a href="PELIS/Oppenheimer (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/8HCoPfguQ3u1QhiunBBJxHSy2K1.jpg" alt=""></span></a></div>
+<a href="PELIS/Pollen (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/wa92UuS1MxnoLTySTX7AncS3AWo.jpg" alt=""></span></a></div>      
+<a href="PELIS/BDE (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/p1a6islpdTQR1TzGS2pL4ALGeh3.jpg" alt=""></span></a></div>      
+<a href="PELIS/Asedio (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/lvlqHFtc5ImSoBa63DvUcbQrmR7.jpg" alt=""></span></a></div>
+<a href="PELIS/Muchas mas hormigas entre las piernas (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/9PuK45DWcRlp47v7hbOO0IZZSi6.jpg" alt=""></span></a></div>      
+<a href="PELIS/Blondi (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/beVSYThQxFrbMmvYnmRB4USwXlM.jpg" alt=""></span></a></div>
+<a href="PELIS/The Boogeyman (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/1XJJur85sQL13EUxjM3AmTFrOZn.jpg" alt=""></span></a></div>      
+<a href="PELIS/Mari(dos) (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/aJQx8Ba9NTWfMqWngoMDhIOiDCN.jpg" alt=""></span></a></div>      
+<a href="PELIS/10 días de un buen hombre (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/lZjmSFRf6u1hYvLGxCAu13dpGQA.jpg" alt=""></span></a></div>
+<a href="PELIS/Locas por Brady (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/4E10HQ6Od3fO8yRiWZPjgwYs9k5.jpg" alt=""></span></a></div>
+<a href="PELIS/A la intemperie (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/gvkXF5GAKiywWOVKcCiYrQrt6BL.jpg" alt=""></span></a></div>
+<a href="PELIS/Astérix y Obélix y el reino medio (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/bEcAUzv57bdHLoGyjJQkyd8ENUY.jpg" alt=""></span></a></div>
+<a href="PELIS/Camino de la Venganza (The Old Way) (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/HA8KoMqdohG2V9T6KIKPQOSP6r.jpg" alt=""></span></a></div>
+<a href="PELIS/Clock (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qCADhsz1DGb2eT35v4Pcq7widm1.jpg" alt=""></span></a></div>
+<a href="PELIS/Con la soga al cuello (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/3K64qyJfykNCt2XVP5rXH6VbAwU.jpg" alt=""></span></a></div>
+<a href="PELIS/Día de la Madre (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/g0cgE4w92PyQ3Xyc8ClBHlAlsLu.jpg" alt=""></span></a></div>
+<a href="PELIS/Dieciocho otra vez (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/t1TQbQMGyPQxTwZ8HqqNTdtcjOe.jpg" alt=""></span></a></div>
+<a href="PELIS/Disquiet (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/fKuyTfzKMOdwQi150Zu3DVXwi7J.jpg" alt=""></span></a></div>
+<a href="PELIS/El campo de la muerte (2022).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/gjN8fe0ONUHEzEsm7DQCYoIcsQA.jpg" alt=""></span></a></div>
+<a href="PELIS/GyG 2 El Hotel de los Líos (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/9phlLb8OIcImfJCxCWczNpCJFBM.jpg" alt=""></span></a></div>
+<a href="PELIS/El clon de Tyrone (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/38dnJYc0JhXXigsycjZZCU8VsRF.jpg" alt=""></span></a></div>
+<a href="PELIS/Sound of Freedom (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kSf9svfL2WrKeuK8W08xeR5lTn8.jpg" alt=""></span></a></div>
+<a href="PELIS/El rey de las sombras (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/rDmkgbtSDtK3vWc2Kqvxqhucn2w.jpg" alt=""></span></a></div>
+<a href="PELIS/Esta noche duermes conmigo (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/8b1eK5Z8oe2qAqAbxSN33tLnLwq.jpg" alt=""></span></a></div>
+<a href="PELIS/Fatum (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/cZGp1LsLkw2FNTZsRhBPZzE4b5x.jpg" alt=""></span></a></div>
+<a href="PELIS/Embaucadores (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/nWM6R0FqoSBUxupyRorLbR7EJyK.jpg" alt=""></span></a></div>
+<a href="PELIS/Folie à Famille (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/t2d1rguaEsT6a0bVsE023fIPIZU.jpg" alt=""></span></a></div>
+<a href="PELIS/Fenómenas (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/grA55EHmkQ4rccvbphl1WQWqdr7.jpg" alt=""></span></a></div>
+<a href="PELIS/Guía de viaje hacia el amor (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/z5oRHIL7fZ3d1qRd1jlwWw8WZxw.jpg" alt=""></span></a></div>
+<a href="PELIS/High Heat (2022).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mmD0NVdhiRiCu64YKem5GK5PSfy.jpg" alt=""></span></a></div>
+<a href="PELIS/Invitación a un asesinato (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/lMA79k1ClhT0AKNEwKlZ3YhdP2A.jpg" alt=""></span></a></div>
+<a href="PELIS/Jubilación imposible 2 (2022).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/unbQ0WfEd6zVyPAgeo8Q060dV9n.jpg" alt=""></span></a></div>
+<a href="PELIS/En tus sueños (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/yfykO4wU6xwhvLBby3jQbxdYYpm.jpg" alt=""></span></a></div>
+<a href="PELIS/La novia de América (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/c0dfDXSu6esHRdE6mx2SzehvaDv.jpg" alt=""></span></a></div>
+<a href="PELIS/El rey Shakir A reciclar (2022).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6la9CIvYtT0CBvfKJp34TtvU9W8.jpg" alt=""></span></a></div>
+<a href="PELIS/La Piedad (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/u1Y5Q0pikN5CxW9KlFQssA3xijb.jpg" alt=""></span></a></div>
+<a href="PELIS/Las semanas mágicas (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/blGdfZPiv4CXViqbfXNcWiplABz.jpg" alt=""></span></a></div>
+<a href="PELIS/La Princesa Cisne Ha nacido un cuento de hadas (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/rPHUSeqb2HI4JKe9xMawxeMZHAb.jpg" alt=""></span></a></div>
+<a href="PELIS/Me miente, me engaña (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/fCcc6pc7PLSoIVdKkU6QzkEIIki.jpg" alt=""></span></a></div>
+<a href="PELIS/Loli Tormenta (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/pkdVfqRayyAlzX79Ri8P2Z9vRK8.jpg" alt=""></span></a></div>
+<a href="PELIS/Mixed by Erry (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/fFS7M6lD68JM3VZxrqhrCK9kBl9.jpg" alt=""></span></a></div>
+<a href="PELIS/Moving On (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/9y59OnzXfwzyCuvWHXPhgjPgYzi.jpg" alt=""></span></a></div>
+<a href="PELIS/Munch (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/bMwQn3uroHJx9mAiuXzlVzkRpyV.jpg" alt=""></span></a></div>
+<a href="PELIS/Muy lejos de aquí (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/s8OSxz7U0hMsIPTrmdgUboTD2y2.jpg" alt=""></span></a></div>      
+<a href="PELIS/Mighty Morphin Power Rangers Ayer, hoy y siempre (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mlhyh9qYd28y5lJJCRRwyLP1pr3.jpg" alt=""></span></a></div>
+<a href="PELIS/El santuario (Sanctum) (2011).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mGgQ5Z7FAgrCsBIPQEQQHDA63FK.jpg" alt=""></span></a></div>
+<a href="PELIS/Ruido mental (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6JIBwcHAEEteIAgepqf4asxRKSh.jpg" alt=""></span></a></div>
+<a href="PELIS/Scarlet (Lenvol) (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/aPG2sVgjDwi1FUAg33d7vrDD5Qq.jpg" alt=""></span></a></div>
+<a href="PELIS/Sheroes (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/rpFvrUp5RZIoHD5s8YRDmE3S4PG.jpg" alt=""></span></a></div>
+<a href="PELIS/Sé tú misma (2023)">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/8jOLkhDWmmzcJEhZNpDU39CNbCe.jpg" alt=""></span></a></div>
+<a href="PELIS/Solo Somos Carne (2022).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/9eVqMhZEbq53VFbmRNqh3yzT0xM.jpg" alt=""></span></a></div>
+<a href="PELIS/Soy una buena persona (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/gptu4fXCs7LjuqAhNIvftTyozXp.jpg" alt=""></span></a></div>
+<a href="PELIS/Temporadas (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/aS5ZUUFwRzQA1koExStJOk9UWoQ.jpg" alt=""></span></a></div>
+
+<a href="PELIS/Estás ahí Dios Soy yo, Margarita (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/yb6UB4WC3znlwU0L4AqMnjR9G9S.jpg" alt=""></span></a></div>
+<a href="PELIS/Amigos hasta la muerte (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/jqSNWHKAmVudHhMDhUuV8qhSJLt.jpg" alt=""></span></a></div>
+<a href="PELIS/Don Cochecito y los caballeros templarios (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/xNWSKYJtFR66zX6CeMSijQC4C0q.jpg" alt=""></span></a></div>
+<a href="PELIS/El autócrata (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/YiFF3PoXS3RioAyUrGMLnIw2d0.jpg" alt=""></span></a></div>
+<a href="PELIS/Gringa (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/7K3MPwWgUu2i6VT0P3Kcp6s8yi8.jpg" alt=""></span></a></div>
+<a href="PELIS/La bala de Dios (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/xK4TRRkctNVr3CPDfLX015eqAd2.jpg" alt=""></span></a></div>
+<a href="PELIS/Lionel Messi Destiny (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/xaZjJeFNKVq8rpd4ElSFlONVLh6.jpg" alt=""></span></a></div>
+<a href="PELIS/Lo desconocido La cueva de los huesos (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/pZZCxHqw5KIXRb70QeMLR4TFY4K.jpg" alt=""></span></a></div>
+<a href="PELIS/Malka. Guardiana del bosque (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/jOxj7rKp2eI24LFYSlTCZsgfqnc.jpg" alt=""></span></a></div>
+<a href="PELIS/Misántropo (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/tfjxw4nBFe7DlOMujBBcDnRb6KR.jpg" alt=""></span></a></div>
+<a href="PELIS/Women in Hip-Hop (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/z82gR19kT8Lzw0mMWmP9zh97yoi.jpg" alt=""></span></a></div>
+<a href="PELIS/Oppenheimer el dilema de la bomba atómica (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/lAgXJGC00jzO8An9On4QHeYMJqP.jpg" alt=""></span></a></div>
+<a href="PELIS/Quicksand (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/agAl6LLnkeBvHKIvvZCX9qC3dHz.jpg" alt=""></span></a></div>
+<a href="PELIS/Resident Evil Isla de la Muerte (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/zrQgt6WcNeoQFZj6BbKaiKURtoS.jpg" alt=""></span></a></div>
+<a href="PELIS/The Devil Comes at Night (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6QIeZuKirT4cXVpW7ilVZmcRmdK.jpg" alt=""></span></a></div>
+<a href="PELIS/Asteroid City (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/s7LIE7oNZ6WU4ajf1FaXWyMYdpX.jpg" alt=""></span></a></div>
+<a href="PELIS/Bird Box Barcelona (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/k9MA7wHFFSh5cas3QnS2IbLrmTW.jpg" alt=""></span></a></div>
+<a href="PELIS/Sin malos rollos (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/hKlpYtDLBtJEvYVvaUIq39Gh6rI.jpg" alt=""></span></a></div>
+<a href="PELIS/Shen Hai (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/5zxRBakuUn5qYeGU6AlVGJ5QaWe.jpg" alt=""></span></a></div>
+<a href="PELIS/Cut Off (2018)">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/927kgdzuNNHX6wubSbqi50kZse0.jpg" alt=""></span></a></div>
+<a href="PELIS/Wolverine Inmortal (2013).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/p5IFVd8PQjcGk0KKaSP97jze3wP.jpg" alt=""></span></a></div>
+<a href="PELIS/X-Men (2000).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/aF170xLGytZcC0xeSlSamImgIi4.jpg" alt=""></span></a></div>
+<a href="PELIS/X-Men 2 (2003).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/wIyQMpV0lBXYnyTDXBghYUk6QJA.jpg" alt=""></span></a></div>
+<a href="PELIS/X-Men 3 La decisión final (20">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/fY43xX0k1raU7M9FZHwOj0WNYhF.jpg" alt=""></span></a></div>
+<a href="PELIS/X-Men Primera Generación (2011).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6ED3G0lpBXRZtEDJD2xVYsqIwxI.jpg" alt=""></span></a></div>
+<a href="PELIS/X-Men Apocalipsis (2016).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/i5ET4lACwrb97sdPzmIThieasOk.jpg" alt=""></span></a></div>
+<a href="PELIS/X-Men Fénix oscura (2019).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/rdByKDkfyVuVSrkllzxKYXiZmTd.jpg" alt=""></span></a></div>
+<a href="PELIS/X-Men Días del futuro pasado (2014).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ggb9nmS5alJuA0ll0iU5YHiGbb0.jpg" alt=""></span></a></div>
+<a href="PELIS/Attraction (2017).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/wsAXHzvwnge7rHcVoIOV9VHHkwE.jpg" alt=""></span></a></div>
+<a href="PELIS/Batman vuelve (1992).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/i5xLIx2vkisiLPQqaeI3uiSaG1b.jpg" alt=""></span></a></div>
+<a href="PELIS/Batman La película (1966).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qlTsmgXY3gzI0JqKKoEdTZXfMba.jpg" alt=""></span></a></div>
+<a href="PELIS/Batman Forever (1995).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/wg6BN76E9iIEtiawMJnCecY0zgY.jpg" alt=""></span></a></div>
+<a href="PELIS/Batman y Robin (1997).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/gJAvyXHdIjeKHS07Dlim7LETBEK.jpg" alt=""></span></a></div>
+<a href="PELIS/C.H.U.D. Caníbales Humanoides Ululantes Demoníacos (1984).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/4MIPxAe1kl7xtvY0rZEfdvbYlnD.jpg" alt=""></span></a></div>
+<a href="PELIS/Cincuenta sombras de Grey (2015).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mNZcZOIlTwDKd30xLnRR4p0ZELg.jpg" alt=""></span></a></div>
+<a href="PELIS/La chica danesa (2015).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/sptk8AiL73TWTodXPSFyMQKG8lT.jpg" alt=""></span></a></div>
+<a href="PELIS/Cincuenta sombras liberadas (2018).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/sM8hwgWZlmZf0h4aOkNopb3HBIo.jpg" alt=""></span></a></div>
+<a href="PELIS/El teléfono (2020).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/iqqWhCEPzHn1EX04BKFRuRy6cJr.jpg" alt=""></span></a></div>
+<a href="PELIS/Till Death. Hasta que la muerte nos separe (2021).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/9azVNvLVswNn1dj43YbJ5sZiykd.jpg" alt=""></span></a></div>
+<a href="PELIS/La maldición de la mosca (1965).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/vsKABpsLZoKb1nchPKYK8VM6lw9.jpg" alt=""></span></a></div>
+<a href="PELIS/Al sur del cielo (2021).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/xjwer7ZmLCaPV6eTBbCYBQbyCh0.jpg" alt=""></span></a></div>
+<a href="PELIS/Como agua para chocolate (1992).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/bBToqYouLBaoojtC6AyRNeFcQoV.jpg" alt=""></span></a></div>
+<a href="PELIS/Gigante (1956).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/uh5xsXjEhJwd9dE9VFsPtbI6BNv.jpg" alt=""></span></a></div>
+<a href="PELIS/Hideout (2021).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ckAui0w734hvNsHxfL9zZfpGefN.jpg" alt=""></span></a></div>
+<a href="PELIS/La mosca (1958).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/hrTHkZDwtx1PF36zupjm6TukuPf.jpg" alt=""></span></a></div>
+<a href="PELIS/La mosca (1986).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/lotsO2VRhsmeFKzqncMX9xrYMj6.jpg" alt=""></span></a></div>
+<a href="PELIS/La mosca II (1989).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mGrE2MNOjEQvHVqZSXUzdUboKcc.jpg" alt=""></span></a></div>
+<a href="PELIS/Línea mortal (1990).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mKhbJt9hUBpT8MOyynMoip4zkiC.jpg" alt=""></span></a></div>
+<a href="PELIS/Logan (2017).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/d0ktjN9eKww26HhM8or8iUB1I68.jpg" alt=""></span></a></div>
+<a href="PELIS/La Leyenda de los Chaneques (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/uybOgGtSW3orlkHTO0qYOQcSgfq.jpg" alt=""></span></a></div>
+<a href="PELIS/Misión Imposible - Sentencia mortal parte uno (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/83sGKvCv2T2CulYbd40Aeduc7n2.jpg" alt=""></span></a></div>
+<a href="PELIS/El Sueño de Ariana (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/2OTjAsmQWj4VRnlNhFzxDLgqZ6d.jpg" alt=""></span></a></div>
+<a href="PELIS/Cash (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ai7AXz4tKaY8e20qthizQXw1qSz.jpg" alt=""></span></a></div>
+<a href="PELIS/Canción sobre canción (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/aL6awzD8x9kjmFU9NPYTpFNG4Al.jpg" alt=""></span></a></div>
+<a href="PELIS/The Devil Comes at Night (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6QIeZuKirT4cXVpW7ilVZmcRmdK.jpg" alt=""></span></a></div>
+<a href="PELIS/Unseen (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/yCzfHW17eLrCskhRpwpjj1IHC1n.jpg" alt=""></span></a></div>
+<a href="PELIS/La conspiración del Diablo (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/BUQB3FuLrMyPD6khjawrHePyLo.jpg" alt=""></span></a></div>
+<a href="PELIS/Los Simpson conocen a los Bocelli en Feliz Navidad (2022).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/v2z3bbbwVW76PVEkyesjYP81vuP.jpg" alt=""></span></a></div>
+<a href="PELIS/Mientras Haya Esperanza (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/m5nXOX4GmuCNzv29qswOZrMWU5P.jpg" alt=""></span></a></div>
+<a href="PELIS/Taz búsqueda de hamburguesa (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qS2KvIftgBf32ijeMuAwb6DbHkP.jpg" alt=""></span></a></div>
+<a href="PELIS/The Stroll (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/uWKw6RdzGTugBxE72GU4bCIYUwe.jpg" alt=""></span></a></div>
+<a href="PELIS/LEGO Friends El siguiente capítulo Nuevos comienzos (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/sjfCWn5OG1KneAZ3gqVrS46WDzW.jpg" alt=""></span></a></div>
+<a href="PELIS/Liga de la Justicia x RWBY Superhéroes y Cazadores Parte 1 (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/7twNCiHS1rR7P2fyGOH1sUmLDyY.jpg" alt=""></span></a></div>
+<a href="PELIS/Lo desconocido La pirámide perdida (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/1YSv9PJYWabs6L2zyuPmphQvI5t.jpg" alt=""></span></a></div>
+<a href="PELIS/Los iniciados (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/51sVbW7cwa7UU6rPsCOqsM5dUec.jpg" alt=""></span></a></div>                  
+<a href="PELIS/La combinación perfecta (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/3DGWP1xSdm87g1NkTX9qGNFYmv3.jpg" alt=""></span></a></div>
+<a href="PELIS/La noche del demonio La puerta roja (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/bUvZ2WuvfYJ5QIn6ZNfDHURBRZt.jpg" alt=""></span></a></div>
+<a href="PELIS/Krakens y sirenas Conoce a los Gillman (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qa465Bqi8a2YUIQDDi0ZbMDbhLa.jpg" alt=""></span></a></div>      
+<a href="PELIS/Indiana Jones y el dial del destino (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/3Sj5ubQ0BLXd6JuECq52Ira8Oor.jpg" alt=""></span></a></div> 
+<a href="PELIS/Malum (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/cbT17BlzQrMW0zEX9qQ87QmDfz.jpg" alt=""></span></a></div>
+<a href="PELIS/Nimona (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/oWRY8HRXI1DVWB7rNvpmFWwSnCC.jpg" alt=""></span></a></div>           
+<a href="PELIS/Hazme el favor (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/uXe4Bsk7TMEmFWsj2oel3q4hJVz.jpg" alt=""></span></a></div>
+<a href="PELIS/Mente Desgarrada (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/llvoAqUBvnhuo6M4iQah1SGE6kZ.jpg" alt=""></span></a></div>
+<a href="PELIS/Huye, conejo, huye (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/bWPEl0K0t697HGjIPZStNMByjY3.jpg" alt=""></span></a></div>
+<a href="PELIS/20.000 especies de abejas (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ihX17g6QubsnmiUuScG0SvyLk5d.jpg" alt=""></span></a></div>
+<a href="PELIS/Unos suegros de armas tomar (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/y9t1Um0PdowjsFWnhO0N06IDqPR.jpg" alt=""></span></a></div>
+<a href="PELIS/Boylesque (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/91kB466g35txFY3xqqDyWmckY7H.jpg" alt=""></span></a></div>      
+<a href="PELIS/El rey de los clones (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/jJAF2h2iLLCpKUocEnoJz7wKtWq.jpg" alt=""></span></a></div>
+<a href="PELIS/iNumber Number El oro de Johannesburgo (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/dDB9jDwOe3XsctylK1cTbPBtFdl.jpg" alt=""></span></a></div>
+<a href="PELIS/Bukraken (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qRtdNFzEEoQ2WpQPfkbhkNcXbF9.jpg" alt=""></span></a></div>
+<a href="PELIS/Confidential Informant (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kCyAyqF6TKylJFuddaHtqq20b62.jpg" alt=""></span></a></div>
+<a href="PELIS/Craving (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/3EwoyAPOBPK2VoTq2fHp516PA3X.jpg" alt=""></span></a></div>
+ <a href="PELIS/De vuelta al deseo (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/cGOYghXDXixcEgO49LGKDWIqQNT.jpg" alt=""></span></a></div>
+<a href="PELIS/Eldorado Todo lo que odian los nazis (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/nA2b8InigvsaAPC2R9u9fFbjmFS.jpg" alt=""></span></a></div>   
+<a href="PELIS/Transuniversal (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kXtI0KiFzSqmIMrmWy9Ufh5rLpC.jpg" alt=""></span></a></div>
+<a href="PELIS/Wham (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/e7drGW0r92hORioVOigC7hWpVMm.jpg" alt=""></span></a></div>
+<a href="PELIS/Daughter of the Bride (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/bXlOdEj9WejodkVgJH511aYAeea.jpg" alt=""></span></a></div>
+
+
+<a href="PELIS/La Gran Aventura De Blue En La Ciudad (2022).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/2MPU8RGqNW10IKtHDlqHZhfqj64.jpg" alt=""></span></a></div>
+<a href="PELIS/Alice (1988).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/wcA4hS758PezzzB2DrYxkVUTP2j.jpg" alt=""></span></a></div>
+<a href="PELIS/Alien vs. Predator (2004).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/4KyXdnsQI7p81T4o6UcfhEjP2mZ.jpg" alt=""></span></a></div>
+<a href="PELIS/Aliens vs. Predator 2 (2007).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/3U0JSDmyqXlCOlXeCcPD5PQmp9Q.jpg" alt=""></span></a></div>
+<a href="PELIS/Mentes peligrosas (1995).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/4jVR462Kf4xtLUznLsXb3L1Wq4I.jpg" alt=""></span></a></div>
+<a href="PELIS/Depredador (1987).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/spgPmu5bTk8N6KZXrIOBwfd3cNb.jpg" alt=""></span></a></div>
+<a href="PELIS/Depredador 2 (1990).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/92Lqy293CqAExYXlqDc456eYCWp.jpg" alt=""></span></a></div>
+<a href="PELIS/Depredadores (2010).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/78IbTTFUZ1a7OyCsZrKVZSht2AU.jpg" alt=""></span></a></div>
+<a href="PELIS/Predator La presa (2022).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/49ldE9yPMkYCrTLEpdhJgqlQXYK.jpg" alt=""></span></a></div>
+<a href="PELIS/Predator (2018).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/dyAGJ75aJXwDVDZqBWLWNxb82AA.jpg" alt=""></span></a></div>
+<a href="PELIS/Gehenna Where Death Lives (2016).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/VLRxwqEIMKQNf4CSdKotNSu86A.jpg" alt=""></span></a></div>
+<a href="PELIS/Golpe al amanecer (2005).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/9GW2DIR6h5uvejrJHWwoMKFMjaT.jpg" alt=""></span></a></div>
+<a href="PELIS/Independence Day (1996).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/q5DEw5OWMVSn5tm6mL4osl4aNp1.jpg" alt=""></span></a></div>
+<a href="PELIS/Independence Day Contraataque (2016).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/oRvd6J7GZo4tMiRFkWSGEuZrlKr.jpg" alt=""></span></a></div>
+<a href="PELIS/Inocencia interrumpida (1999).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kKBHjBY9RLPyIJaycEdduPj0cjB.jpg" alt=""></span></a></div>
+<a href="PELIS/Intruso en la noche (1989).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/3yyhhC4JSwOduRTKX0XEyoWq7eL.jpg" alt=""></span></a></div>
+<a href="PELIS/Juice (1992).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/8gP24JtMp4GTZ8BfoCIDrnAztKB.jpg" alt=""></span></a></div>
+<a href="PELIS/La novia del cabello blanco (1993).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kEsk9W3Cv1yjPiueFQ06XuQq2uM.jpg" alt=""></span></a></div>
+<a href="PELIS/La novia del caballero blanco (1993).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/pFfxAufiZtZBOiSCi0oRmbnDSpD.jpg" alt=""></span></a></div>
+<a href="PELIS/The Purge La noche de las bestias (2013).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/8fbbaY5Z00u1Y4iDT5B7rN6l2eS.jpg" alt=""></span></a></div>
+<a href="PELIS/Anarchy La noche de las bestias (2014).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ynDDbzVge9AzuTkeyw8JcKr58Cq.jpg" alt=""></span></a></div>
+<a href="PELIS/Election La noche de las bestias (2016).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/wEpLdiISE6mLHXOc1iDnd3edfal.jpg" alt=""></span></a></div>
+<a href="PELIS/La primera purga La noche de las bestias (2018).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/aO1DumNAMId7aYZyWScDRx4AQfu.jpg" alt=""></span></a></div>
+<a href="PELIS/La purga infinita (2021).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/zWiXxOTM3NeYcj3dzbtoGqIIJPz.jpg" alt=""></span></a></div>
+<a href="PELIS/Tres fugitivos (1989).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/75ho1MRWYg3q9kEwSdocU5UAWet.jpg" alt=""></span></a></div>
+<a href="PELIS/El efecto mariposa (1995).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/vhmuoz9vxREuclMdyMzwZwHcAMM.jpg" alt=""></span></a></div>
+<a href="PELIS/El efecto mariposa II (2006).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/j50YG9KZH8x1vsIhO9cMmoTRukX.jpg" alt=""></span></a></div>
+<a href="PELIS/El efecto mariposa 3 Revelaciones (2009).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/cP9zhOtNvNgzsksYOecqUy5OBk5.jpg" alt=""></span></a></div>
+<a href="PELIS/Juego de armas (2016).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/zbuZYpGlXwkSlOMJ4IbUEHxZ03h.jpg" alt=""></span></a></div>
+<a href="PELIS/La herencia del Sr. Deeds (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/2GeytVXwD5OsMGAYtl8sNeOv79M.jpg" alt=""></span></a></div>
+<a href="PELIS/Las horas (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/byszNcsReMy90ZQy7RscGzBHxSp.jpg" alt=""></span></a></div>
+<a href="PELIS/The Perfect Weapon (2016).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/37xSJhZfI8uiKxUzQREFIIb2ziu.jpg" alt=""></span></a></div>
+<a href="PELIS/Perseguida (2008).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/uq6mx5zxZ54byHe7TIJlXyhZgl7.jpg" alt=""></span></a></div>
+<a href="PELIS/Tierra sin ley (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/yq2BfDUsy9oP1rbhDYHMcWNunuq.jpg" alt=""></span></a></div>
+<a href="PELIS/El Profesor (2018).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/5rY28OsyIa0GOgWVB9buXq6P9E1.jpg" alt=""></span></a></div>
+<a href="PELIS/Vaya Santa Claus (1994).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/AbCQyi9hTyw6rHdzPqfdrD4QXHy.jpg" alt=""></span></a></div>
+<a href="PELIS/Santa Claus 3 Por una Navidad sin frío (2006).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/l9dftOatPjrRUDToBrjE0aFvVKa.jpg" alt=""></span></a></div>
+<a href="PELIS/Cuerpos especiales (2013).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/lLIj0HJcGl0OCyEdGE3PjGz8tpn.jpg" alt=""></span></a></div>
+<a href="PELIS/The Gingerdead Man (2005).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/tZgIllFk4ncvhuzNipLkStjPjqk.jpg" alt=""></span></a></div>
+<a href="PELIS/El gángster, el policía y el diablo (2019).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/o9rByfNAkGJuXOSQLQ6UpUfGTOQ.jpg" alt=""></span></a></div>
+<a href="PELIS/The Flash (1990).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/yzIBlpyufPoL9ujOOizLktHRFev.jpg" alt=""></span></a></div>
+<a href="PELIS/El efecto mariposa (2004).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/vtqJkVTvrxbk2BehGO6e6izsUBa.jpg" alt=""></span></a></div>
+<a href="PELIS/Más allá de la realidad (1986).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/3zs7K97Bqru2lMFwvv6qk1KwyeH.jpg" alt=""></span></a></div>
+<a href="PELIS/Noviembre dulce (2001).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/etZBiCuTbCsAPbdLzLMBfdGik61.jpg" alt=""></span></a></div>
+<a href="PELIS/Los paraguas de Cherburgo (1964).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/q29ZeN0RGtY5PWQPK37exqdGUvI.jpg" alt=""></span></a></div>
+<a href="PELIS/Those Who Call (2021).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kps2mkDFWDnb00BY1kKj0GIjSCP.jpg" alt=""></span></a></div>        
+<a href="PELIS/Una entrevista con Dios (2018).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/yPPGizp64Btf6DqyK8w5B02AQqT.jpg" alt=""></span></a></div>
+<a href="PELIS/Atracción fatal (1987).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ybPrQN98vBLbk30t251YqQkOjZG.jpg" alt=""></span></a></div>
+<a href="PELIS/Boogie, el Aceitoso (2009).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/rom0NoTExJcBWSf1TqzUV5sgYdb.jpg" alt=""></span></a></div>
+<a href="PELIS/La lectora (2017).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/22ou2HSa7WN4O8D2IRM7NX1ozk4.jpg" alt=""></span></a></div>
+<a href="PELIS/Algunos hombres buenos (1992).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/10IoqEQs0E9oMJejGfWDnr2lEfe.jpg" alt=""></span></a></div>
+<a href="PELIS/Rumores y mentiras (2010).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/vSK2jgl4Xg0wNi6OyVjBLVv70Mq.jpg" alt=""></span></a></div>
+<a href="PELIS/Extinción (2022).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/PEcT8Klq6bZ1jbvhtxGzsrbCba.jpg" alt=""></span></a></div>
+<a href="PELIS/12 años de esclavitud (2013).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/1OoCd3fmjPHt9iCR4QxNGGrDyI0.jpg" alt=""></span></a></div>
+<a href="PELIS/Pequeño Manhattan (ABC de Amor) (2005).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/uphY0n0Nm47l4MHzqYNoaZJuzBJ.jpg" alt=""></span></a></div>
+<a href="PELIS/Agua y fuego (2013).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/7Q91NanJYGIUljUM7STDLECllyq.jpg" alt=""></span></a></div>
+<a href="PELIS/Amigos con Beneficios (2011).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/iRAdmsAsVl2iUUOvi50OEg2qXhc.jpg" alt=""></span></a></div>
+<a href="PELIS/Amor con preaviso (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/lvSiPkP4ZMbpPN3QmNCGyPzLK50.jpg" alt=""></span></a></div>
+<a href="PELIS/Austin Powers en Miembro de Oro (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/uNXrayLqEdYLYhPMmUy7Gf7227q.jpg" alt=""></span></a></div>
+<a href="PELIS/Austin Powers La espía que me achuchó (1999).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/tJjl8E1yc0ErYCvykOVjlvb9q2W.jpg" alt=""></span></a></div>
+<a href="PELIS/Austin Powers Misterioso agente internacional (1997).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/99XaTLygymVuzqZAlWOaWfld67u.jpg" alt=""></span></a></div>
+<a href="PELIS/Balto La leyenda del perro esquimal (1995).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/wAZ7dMCNWDxylwtz70J1WvEuXFt.jpg" alt=""></span></a></div>
+<a href="PELIS/Balto 2 Aventura en la tierra de hielo (2002).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/2wSC82VnkZ2MhvfUWrkxDWr0csc.jpg" alt=""></span></a></div>
+<a href="PELIS/Chicago (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/jVJkOnM3Ta41VtIdhF2iLHxTipQ.jpg" alt=""></span></a></div>
+<a href="PELIS/Dirty Dancing (1987).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/Bqk2YfJRetrcKXnkavJZcqKpUC.jpg" alt=""></span></a></div>
+<a href="PELIS/El Crimen del Padre Amaro (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/tiC3aE5i8vKmPJf9u7oxbDueZOG.jpg" alt=""></span></a></div>
+<a href="PELIS/El Informante (2017).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/gdc13Aj5w3Wn4RiJtYFHtrXIG2L.jpg" alt=""></span></a></div>
+<a href="PELIS/El informante (2019).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/fzIuRQlq9LfRipziI4cfXsUBYWm.jpg" alt=""></span></a></div>
+<a href="PELIS/Adaptation El ladrón de orquídeas (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/aRYRGWx3SZjbY7kHT8kodMc3tKT.jpg" alt=""></span></a></div>
+<a href="PELIS/Mayor Payne (1995).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/Bf4GYx2ZP8kG3CAhG2cYKeDfcK.jpg" alt=""></span></a></div>
+<a href="PELIS/Fama (1980).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/iAi4KIi21qUNuvRnaLl3SV3HyqL.jpg" alt=""></span></a></div>
+<a href="PELIS/Fiebre del sábado noche (1977).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qgwWjfpgGvUPoWXdq5kPLii6AOr.jpg" alt=""></span></a></div>
+<a href="PELIS/Grease (1978).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/flSy0dexE82TiS6Si2FtulSHk8o.jpg" alt=""></span></a></div>
+<a href="PELIS/Hideout (2021).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ckAui0w734hvNsHxfL9zZfpGefN.jpg" alt=""></span></a></div>
+<a href="PELIS/En busca del arca perdida (1981).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/9QvmNoet3sZhuR225rDjTh1Hhb4.jpg" alt=""></span></a></div>
+<a href="PELIS/Indiana Jones y el templo maldito (1984).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6UrznkPL4Y2f66zkoFAiSwfAYtE.jpg" alt=""></span></a></div>
+<a href="PELIS/Indiana Jones y la última cruzada (1989).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/osKZUgKRUK1jwYMdsmlevK7zZIY.jpg" alt=""></span></a></div>
+<a href="PELIS/Indiana Jones y el reino de la calavera de cristal (2008).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/fGG1Ljd0ULYHOegN8Qm3r1ndXhE.jpg" alt=""></span></a></div>      
+<a href="PELIS/Ojos Grises (2018).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/5InVYa7CcbGioPvQ6ig4Lz4iLlR.jpg" alt=""></span></a></div>
+<a href="PELIS/Ámsterdam (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/vWQAUQny1hlvubLhWC3P8OxH2g1.jpg" alt=""></span></a></div>
+<a href="PELIS/Supercell (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6uaKRc0Di2pfhRLFQaH5BntSJOH.jpg" alt=""></span></a></div>
+<a href="PELIS/Una imagen para creer (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6eocY3RtunPbRPrZHHZxhvNZxbJ.jpg" alt=""></span></a></div>
+<a href="PELIS/The flash (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/oT6EkLKQLzbSpVJViRefDVElVcs.jpg" alt=""></span></a></div>
+      <a href="PELIS/Elemental (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://image.tmdb.org/t/p/original/qMcmZ4bsobOCv210dMUUFnSOD3m.jpg" alt=""></span></a></div>
+<a href="PELIS/Operación Kandahar (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qE2EsMv37IjXLjc6ixOU3LeRtZl.jpg" alt=""></span></a></div>
+<a href="PELIS/Mi papá es un peligro.html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/eS7umYS9wVsfnE6kPAlxBNr4Glv.jpg" alt=""></span></a></div>
+<a href="PELIS/Misión de rescate 2 (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ugO3UXyFx2fPUquxfRd7EP1bRC2.jpg" alt=""></span></a></div>
+<a href="PELIS/Transformers El despertar de las bestias (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/i0DDWW7xV9BfOIZHaaveyvQr4cF.jpg" alt="Transformers: El despertar de las bestias"></span></a></div>
+<a href="PELIS/Beau tiene miedo (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/3ykR93shwmbDIz1tQi8hRTDOFNO.jpg" alt=""></span></a></div>                  
+<a href="PELIS/Gangnam Zombie (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/dgkc8FzctV4GxmysL2a4TnnbJpL.jpg" alt=""></span></a></div>            
+<a href="PELIS/El pueblo (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/rCN60OSsGz8FQRda0ZwQJtwPcrU.jpg" alt=""></span></a></div>
+<a href="PELIS/La Usurpadora (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/40UPlmnQcG71KSmjijksZjbsH2q.jpg" alt=""></span></a></div>
+<a href="PELIS/Nefarious (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/xwjWUAajQJPj5aik1tounPguZbz.jpg" alt=""></span></a></div>      
+<a href="PELIS/Live Survival (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/rtfCWqCaxHxGWRniFmMLg9FLc8Y.jpg" alt=""></span></a></div>  
+<a href="PELIS/Curious Caterer Grilling Season (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6QC8A0PftQTlhz3utlQwWaxRftR.jpg" alt=""></span></a></div>          
+<a href="PELIS/El último vagón (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/uxxwQ1e1qoen8ChrxSMvXKKS9FT.jpg" alt=""></span></a></div>
+<a href="PELIS/Fear the Invisible Man (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/jobwUwGIKRS1NwdEjYGlk6Rao5H.jpg" alt=""></span></a></div>
+<a href="PELIS/Flamin Hot La historia de los Cheetos picantes (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/uMPbgcM3Fp30pneRCVd7lA4EHxN.jpg" alt=""></span></a></div>
+<a href="PELIS/La Guerra de los Mundos El Ataque (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/h0xF7q5k07BRVJz9Z3A8dGdbpLR.jpg" alt=""></span></a></div>            
+<a href="PELIS/Love Again (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/uFZp6cZjASgJhoRZ6nLP9CrWwAC.jpg" alt=""></span></a></div>
+<a href="PELIS/Anatomy of Time (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/nA5F2uam1bvA5O7sv6RkkwH4Gbh.jpg" alt=""></span></a></div>
+<a href="PELIS/Black Clover La espada del rey mago (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/nqaSA9MW9nZLbl7NKVDlTQ2Fwwo.jpg" alt=""></span></a></div>
+<a href="PELIS/Chevalier (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mRvqJLGhhW43DNTgn5IJzIuqkqk.jpg" alt=""></span></a></div>
+<a href="PELIS/A través del mar (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ykS1waU5GsEjPbiNnsHG2bl9QvS.jpg" alt=""></span></a></div>
+<a href="PELIS/Empieza el baile (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/oEoR6wJA6uioAu8Pb1uU2UHLPc.jpg" alt=""></span></a></div>
+<a href="PELIS/Amar es madurar (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/1MN8Qxg691Az7nofmXkZPsuIZVD.jpg" alt=""></span></a></div>
+<a href="PELIS/Muerte infinita (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/cTXkZfgE3qW7Js3a2uqLaTA8RYn.jpg" alt=""></span></a></div>
+<a href="PELIS/Llamen a Joe (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/9lcQXlWDzNWxovybZtGbf8O9si5.jpg" alt=""></span></a></div>
+<a href="PELIS/Sé tú misma (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/original/8jOLkhDWmmzcJEhZNpDU39CNbCe.jpg" alt=""></span></a></div>
+<a href="PELIS/Shooting Stars (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/n4C4bYn5a9PKCKDjW1BT3Vp3BEs.jpg" alt=""></span></a></div>
+<a href="PELIS/Spider-Man Cruzando el Multiverso (2023).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qqXTerrQYwg9pIMhb1GFbxa3WUz.jpg" alt=""></span></a></div>
+<a href="PELIS/La ira de Becky (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/3LShl6EwqptKIVq6NWOZ0FbZHEe.jpg" alt=""></span></a></div>
+<a href="PELIS/Siete reyes deben morir (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/55PJNDJbD4Q9jFO4vaCnNl9dYEv.jpg" alt=""></span></a></div>
+<a href="PELIS/Espíritu libre (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/hOyU0FuaVoWADcrh8dWs0Kw801O.jpg" alt=""></span></a></div>
+<a href="PELIS/Maravilloso desastre (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/fgtoOw1dyz6w6LMFSNig2GjJG1i.jpg" alt=""></span></a></div>
+      <a href="PELIS/Guardianes de la Galaxia Volumen 3 (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/voAxRv011XHK2qFBXmZKXPj2wWB.jpg" alt=""></span></a></div>
+      <a href="PELIS/Lewandowski Lo desconocido (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mOgsIsFiURbRGylDEfSPIkqYE5d.jpg" alt=""></span></a></div>
+      <a href="PELIS/Tu casa o la mía (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/a5xp3UCaIluSt0fpUQUiJ39EnM1.jpg" alt=""></span></a></div>
+      <a href="PELIS/Perro perdido (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/nfXAMKGgJVP7wnYm2bDmr8vQoM4.jpg" alt=""></span></a></div>
+      <a href="PELIS/Lobo Feroz (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/oURwoX6p103uvRmz4LgtsgrTcuM.jpg" alt=""></span></a></div>
+      <a href="PELIS/Alias (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kZKjDmCX5Vcl2c345EEnQVZTOAH.jpg" alt=""></span></a></div>
+<a href="PELIS/The Wandering Earth 2 (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/esbXOfzE16OxjcfZeqQ0Ag37K0D.jpg" alt=""></span></a></div>
+<a href="PELIS/Simulant (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/xRLAtPB7QoWsDtQlDHlpabTGjfW.jpg" alt=""></span></a></div>
+<a href="PELIS/Conexión Perdida (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kfQwx1Lk0iv2HxyvYpZenE03tlo.jpg" alt=""></span></a></div>
+<a href="PELIS/Culpa mía (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/nZN0TIxKyPOsRXwoFteGK2eoyN4.jpg" alt=""></span></a></div>
+<a href="PELIS/La vida de Michael J. Fox (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qHvS3nL9oRXGxEwROj4H7wzNCIN.jpg" alt=""></span></a></div>
+<a href="PELIS/Moonage Daydream (2022).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ikVMezPrLFLYbrspvBPFEwSzffj.jpg" alt=""></span></a></div>
+<a href="PELIS/Polite Society (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/lv1WqAo2ulQy9aSOG7ikR44p8RR.jpg" alt=""></span></a></div>
+<a href="PELIS/Ricos de Amor 2 (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/gA2emLQTNb8XS1646Nmhp91NNgv.jpg" alt=""></span></a></div>
+<a href="PELIS/Missed Connections (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/olTz451Gk1EhVlzUUT6SUv2Nwrg.jpg" alt="Missed Connections (2023)"></span></a></div>
+<a href="PELIS/A Sunday Affair.html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/68qUoVSL7BVirc9U3a1O3zKfsAM.jpg" alt="Sunday Affair (2023)"></span></a></div>
+<a href="PELIS/M3gan.html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/tv3Yjn78U8hFGFrkSypiIhHNUh3.jpg" alt="M3GAN (2022)"></span></a></div>
+<a href="PELIS/BZRP Live Tour 2023 (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/o690ugcCVwgYPHAEm5KcjZuHjtc.jpg" alt="BZRP Live Tour 2023"></span></a></div>
+<a href="PELIS/40 días y 40 noches (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/24RIC1zqkWn4YB1LagpczSFbKvY.jpg" alt=""></span></a></div>
+<a href="PELIS/Atrápame si puedes (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/fxX5KGDO4lf2yyBJn2IxBx3F4cO.jpg" alt=""></span></a></div>
+<a href="PELIS/Boa vs. Pitón (2004).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ynleDQ6dPzstmwn5E8rJekf15Bi.jpg" alt=""></span></a></div>
+<a href="PELIS/Dog Soldiers (2002).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/39B0B9v089W4wykhZuDnBzwlFxs.jpg" alt=""></span></a></div>
+<a href="PELIS/El imperio del fuego (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/jKevdQnQxn6Z9qHVSiCxhMdmO9J.jpg" alt=""></span></a></div>
+<a href="PELIS/El rey escorpión (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/q52NgAx5HjS3ZNvm385lMAEFdiI.jpg" alt=""></span></a></div>
+<a href="PELIS/El rey Escorpión 2 El nacimiento del guerrero (2008).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/sx6KyPXNISQZGDziQLZaUlTPkt6.jpg" alt=""></span></a></div>
+<a href="PELIS/El rey Escorpión 3 Batalla por la redención (2012).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/5S35RXhpva5hfXYTvPGLzQmqhdy.jpg" alt=""></span></a></div>
+<a href="PELIS/El rey Escorpión 4 La búsqueda del poder (2015).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qCVUaUbPALM6KTMHYmcrBWdb9u2.jpg" alt=""></span></a></div>
+<a href="PELIS/El rey escorpión el libro de las almas (2018).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/4fZL6ONUz0o8nvnHpeA8zj3nEvs.jpg" alt=""></span></a></div>
+<a href="PELIS/The Bourne Identity El caso Bourne (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/c346jzMOGmE9ugyEr5WWaVaqA2R.jpg" alt=""></span></a></div>
+<a href="PELIS/Camino a la perdición (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/48OfCE2uM2pWWGXquaDPqOt3QT5.jpg" alt=""></span></a></div>
+<a href="PELIS/La cenicienta (1950).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/5kqNkGE5PFt4EOloc90LMUoXqxb.jpg" alt=""></span></a></div>
+<a href="PELIS/Arañas devoradoras (2007).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/Asp7hjh1CfZoOxSJ3cr2RiVx3yt.jpg" alt=""></span></a></div>
+<a href="PELIS/¡Tiburon a la vista (2022).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/16y3zp7pD4oFHPHUJQc1rnXKyvV.jpg" alt=""></span></a></div>
+<a href="PELIS/Asu Mare Los amigos (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/oKH8hvs6aNT3SH0brcgepUNokny.jpg" alt=""></span></a></div>
+<a href="PELIS/Aloha, Scooby-Doo El misterio de la isla de Hanahuna (2005).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kgr5HVQx3wKFbiZmtWwLkfSz3WV.jpg" alt=""></span></a></div>
+<a href="PELIS/Dead Zone (2022).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/jZCzLnF0e70VrvccmJBQZWmM8pW.jpg" alt=""></span></a></div>
+<a href="PELIS/Venus (2022).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/yGpJbft7JQpQHHHasRr4wWdVcuJ.jpg" alt=""></span></a></div>          
+<a href="PELIS/Cypher (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/aLdeArzfXsT0GLpV6xbCu5HHPQQ.jpg" alt=""></span></a></div>
+<a href="PELIS/Black Mask 2 (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/uc9rOZs8ybdZKQVi8zLwSiEP9kz.jpg" alt=""></span></a></div>
+<a href="PELIS/Cálculo mortal (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/1u3aasJDMsmTBqj0OFOgFpvVLgV.jpg" alt=""></span></a></div>
+<a href="PELIS/Clockstoppers Detener el tiempo (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/5ooYYs6CKpmqWM88binhdpBA8nL.jpg" alt=""></span></a></div>
+<a href="PELIS/Equilibrium (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/yQuovle5Ov6q69XSdTNdH52eANc.jpg" alt=""></span></a></div>
+<a href="PELIS/¡Oye Arnold La película (2002).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/uh0DuD7gTRcrAcphPtXiIqpSA2h.jpg" alt=""></span></a></div>
+<a href="PELIS/Fast y Furious X (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS01ij4pbUAkqD92ebD-JkPFZ9z5DB5ohoyKw&usqp=CAU" alt=""></span></a></div>      
+<a href="PELIS/desafio sobre olas (2011).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/tNTRi1Zpt5Bkq7HHB4cM7MRfAV5.jpg" alt=""></span></a></div>
+<a href="PELIS/Detective Knight Última misión (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/1168a2gKGWYSfiCkWtz4oDl5rJP.jpg" alt=""></span></a></div>
+<a href="PELIS/Cariño, cuánto te odio (2021).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/gaSNGvgKsjCUP5sRdqQ2WM8O0vj.jpg" alt=""></span></a></div>
+<a href="PELIS/El imperio de la luz (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/j5DTcJQjh1MophQ3nsqPP3jkHxA.jpg" alt=""></span></a></div>
+<a href="PELIS/Declaración de emergencia (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/4TQeU04IAPzcJn68lF5reqqkLz2.jpg" alt=""></span></a></div>
+<a href="PELIS/Eterno 831 (2022).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/atBc4L1vyB65twiWnwICt3ulv1I.jpg" alt=""></span></a></div>
+<a href="PELIS/Luz Mala (2022).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/t2VZV2RCgxUyLvPDxbcjhNdGhnW.jpg" alt=""></span></a></div>                     
+<a href="PELIS/Muerte anunciada (1995).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/rShuJsXmzT4pzUm6aBO5NIpq1uw.jpg" alt=""></span></a></div>      
+<a href="PELIS/La Cenicienta 2 Un sueño hecho realidad (2002).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/2EoH5WWtDYuQLYVLHeJxfvbSRyK.jpg" alt=""></span></a></div>
+<a href="PELIS/¡Feliz Halloween, Scooby Doo (2020).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/lA6Z28Xye8iLzwUobx4eNeJYcSz.jpg" alt=""></span></a></div>
+      <a href="PELIS/De la nada ¡Scooby-Doo Conoce a Coraje, el Perro Cobarde (2021).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/g9cyiDTw5SQhbI7SRDjBUMr14kV.jpg" alt=""></span></a></div>
+<a href="PELIS/El dragón rojo (2002).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/pTUM7rjGFS1eb9pMDWGmlKiMqJx.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby Doo El Abominable Hombre (2007).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/fPSpvl2h1HJEs9cN7JAQRSR8yWW.jpg" alt=""></span></a></div>
+<a href="PELIS/¡Scooby Doo en el Misterio del Faraón (2005).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kxv1K6ZAxicTsceAhMLUIuTj7Uy.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby (2020).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/zD8LFCoOPe4ooBTkedl1sGSYRGO.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby-Doo Regreso a la Isla Zombie (2019).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/2JZWaMMDr61Lkwt6FuP1KNd2828.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby Doo Un verano espeluznante (2010).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/iLKBwK9L8YFTSKdeJch5uJwMgnj.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby-Doo y el monstruo del lago Ness (2004).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6ICmx9pEaWTzgyZ8V6S7Fp2XRso.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby-Doo La espada y Scooby (2021).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/7QXS9O8NWCEWynWcTHCOce867iL.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby Doo y la leyenda del fantasmasaurio (2011).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/dG5so7Y67CLHpxj9FODA8Q8xmLm.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby-Doo Miedo al escenario (2013).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/aDKoQQxCWGAfRB3SJjxVJUzJbKE.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby-Doo y la espada del samurái (2009).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/7QXS9O8NWCEWynWcTHCOce867iL.jpg" alt=""></span></a></div>
+<a href="PELIS/Señales (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/aFGitUgdg0A6LJYtv1nISTf8W8j.jpg" alt=""></span></a></div>
+<a href="PELIS/Tarzán (1999).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/1Gk8iihu4Q4BGh2n1IwNLB3zM8E.jpg" alt=""></span></a></div>
+<a href="PELIS/Vampiros Los muertos (2002).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/q5kRjaLtYB7mf16FrTrixOWwuWA.jpg" alt=""></span></a></div>
+<a href="PELIS/xXx (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ewGhwS8dbAfFDJBEpbsWOuwS4Ov.jpg" alt=""></span></a></div>
+<a href="PELIS/xXx2 Estado de emergencia (2005).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/A72pDnqEmW9P2NsNL9n50MZk3zk.jpg" alt=""></span></a></div>
+<a href="PELIS/xXx Reactivated (2017).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/iOT9ca00e4hrMdgu1lDKvbIG6RI.jpg" alt=""></span></a></div>
+<a href="PELIS/Cenicienta 3 Qué pasaría si... (2007).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/1Nm3SCJVonYliuJgUVmZ49tne5k.jpg" alt=""></span></a></div>
+<a href="PELIS/La reina de los condenados (2002).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/tkZh0jKK0JJMnGHmqgyi4vRDXRY.jpg" alt=""></span></a></div>
+<a href="PELIS/La tortuga roja (2016).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/m3pixAC0hJSYTo0gvBlwcHncXpv.jpg" alt=""></span></a></div>
+<a href="PELIS/De La Nada ¡Scooby Doo Conoce A Coraje El Perro Cobarde (2021).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/g9cyiDTw5SQhbI7SRDjBUMr14kV.jpg" alt=""></span></a></div>
+<a href="PELIS/Mis vecinos los Yamada (1999).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/7lDWEfYmJtYEaSz39Dq1cCqKFeZ.jpg" alt=""></span></a></div>
+<a href="PELIS/Dando la nota (2012).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/rQ7k0iWoobl0NMl7wwDlUMI2DL5.jpg" alt=""></span></a></div>
+<a href="PELIS/Dando la nota Aún más alto (2015).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/bc2UTKECa9I5Xpm4ujU4xND9EPK.jpg" alt=""></span></a></div>
+<a href="PELIS/Dando la nota 3 (2017).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/fXdINj7fUMNv1hkyPCKqVTDNs5j.jpg" alt=""></span></a></div>
+<a href="PELIS/Pompoko (1994).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/xq1C0j5e7Ww2oNsf00hUGRpOobN.jpg" alt=""></span></a></div>
+<a href="PELIS/Puedo escuchar el mar (1993).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/c1yxP5Hp8pw22vzLxjBt9hSuifv.jpg" alt=""></span></a></div>
+<a href="PELIS/Python (2000).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/z1YlJGK4uPuFW40R0esRL57owZb.jpg" alt=""></span></a></div>
+<a href="PELIS/Comando pitón (2002).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/pZHg7QqjmovEx2m43aJf7lFGDZd.jpg" alt=""></span></a></div>
+<a href="PELIS/Recuerdos del ayer (1991).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/oRhdS9KvZgQ3MvlKCNAMygCXQW1.jpg" alt=""></span></a></div>
+<a href="PELIS/Arma desnuda (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/4OfzVUeQn6kQrCZxXOGFHg78z7U.jpg" alt=""></span></a></div>
+<a href="PELIS/Black Mask (1996).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mveVEzloFDCWZFDNiriYymSzGpp.jpg" alt=""></span></a></div>
+<a href="PELIS/Y tu mamá también (2001).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/hvdqoH6DMZjes6MXImW8J49l01Q.jpg" alt=""></span></a></div>
+<a href="PELIS/Juegos de colegas (2019).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qTD5St4alu7RTX4KbIErQXVVNu4.jpg" alt=""></span></a></div>
+<a href="PELIS/El reino mágico (2021).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ec9YEtoKixNOdGc8wDHhU33kWuF.jpg" alt=""></span></a></div>
+<a href="PELIS/El rey león (1994).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/r7DEmhFWpXWnYU9nbQhx3gPJovS.jpg" alt=""></span></a></div>
+<a href="PELIS/El rey león 2 El tesoro de Simba (1998).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/zdD5VcvTD43p048ueswYdgLJZh.jpg" alt=""></span></a></div>
+<a href="PELIS/El rey león 3 Hakuna Matata (2004).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/vYIQik4Bs8DaAJFB0HmZRw2Wtft.jpg" alt=""></span></a></div>
+<a href="PELIS/Hellboy (2004).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/5PWLsq6g52HqBMVJPVj64Q77p1L.jpg" alt=""></span></a></div>
+<a href="PELIS/Hellboy II El ejército dorado (2008).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/2oJ8v3zmwD0MruokYiLkUivY9wl.jpg" alt=""></span></a></div>
+<a href="PELIS/Hellboy (2019).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/3dLwRfMIKvrufKiJADKbTGdAoqN.jpg" alt=""></span></a></div>
+<a href="PELIS/Black Mask 2 (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/uc9rOZs8ybdZKQVi8zLwSiEP9kz.jpg" alt=""></span></a></div>
+<a href="PELIS/Bubba Ho-tep (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/61S9pzoX75UxP3ko6e8aTitu7MW.jpg" alt=""></span></a></div>
+<a href="PELIS/Cálculo mortal (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/1u3aasJDMsmTBqj0OFOgFpvVLgV.jpg" alt=""></span></a></div>
+<a href="PELIS/Concha Velasco La artista total (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/hcqefBbZGts3hBtf8Eq6vcCMD56.jpg" alt=""></span></a></div>
+<a href="PELIS/El Cubo Zero (2004).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/8wsoqcekSQfm5SnF4Y3tkPvC18B.jpg" alt=""></span></a></div>
+<a href="PELIS/El jorobado de Notre Dame (1996).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/pvnmJckCNgzEbuE5sHXX3tDRQox.jpg" alt=""></span></a></div>
+<a href="PELIS/El jorobado de Notre Dame 2 (2002).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/gFqCwVk7ykPkRevHNC6ZNzHZuu4.jpg" alt=""></span></a></div>
+<a href="PELIS/Equilibrium (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/eW3YrxOh3rd6PnRgMSftYoflvfe.jpg" alt=""></span></a></div>
+<a href="PELIS/Marvel Studios 2021 Disneyplus Day Special (2021).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/tQgrLomow4VbInRbX3bitgAp0e6.jpg" alt=""></span></a></div>
+<a href="PELIS/Avatar The Deep Dive - A Special Edition of 20 20 (2022).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/i367eMUXwj9LtNqrVlw1NXGRLx7.jpg" alt=""></span></a></div>
+<a href="PELIS/Godzilla vs. Mechagodzilla (2002).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/7zL6jpQAwGswHc4Rzb4PUSvMOBV.jpg" alt=""></span></a></div>
+<a href="PELIS/Godzilla contra Cibergodzilla, máquina de destrucción (1974).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ai92jga3nzkeWdPIeZBo6vyhUj5.jpg" alt=""></span></a></div>
+<a href="PELIS/Hellraiser (1987).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/lfE0u0Th1thZ4slkEtIgvreauh4.jpg" alt=""></span></a></div>
+<a href="PELIS/Hellbound Hellraiser II (1988).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/xS7qm6Tosxs0Q5o1b62C9nVbOqQ.jpg" alt=""></span></a></div>
+<a href="PELIS/Hellraiser III Infierno en la Tierra (1992).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/cqCMW3xR6eTyti5ybNIq93owWDX.jpg" alt=""></span></a></div>
+<a href="PELIS/Love to Love You, Donna Summer (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/npQenKloPiAIYMBEW12XwitcVvv.jpg" alt="Love to Love You, Donna Summer"></span></a></div>
+<a href="PELIS/Anna Nicole Smith Tú no me conoces (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/8G0lRuW4PmVoyCqwIrm2qfNsu5I.jpg" alt="Anna Nicole Smith: Tú no me conoces"></span></a></div>
+<a href="PELIS/Bama Rush (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/xzsrIHwa0En1lZqZOxnM6lBMTyW.jpg" alt="Bama Rush"></span></a></div>
+<a href="PELIS/Big Mäck Gánsteres y oro (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/oQdcQBnKKGTX83PANTq5LiYkBlb.jpg" alt="Big Mäck: Gánsteres y oro"></span></a></div>
+<a href="PELIS/Cantando bajo la lluvia (1952).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/hVQtwYqjXezWxps94z9Y8BhC1Cs.jpg" alt="Cantando bajo la lluvia (1952)"></span></a></div>
+<a href="PELIS/El que no soy (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/AoaoGrbOwh2fnECqevM6EMC8vMr.jpg" alt="El que no soy (2023)"></span></a></div>
+<a href="PELIS/El zorro y el sabueso (1981).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/jKD2ElIBJp30Pdw31gAEu2F1luL.jpg" alt="El zorro y el sabueso (1981)"></span></a></div>
+<a href="PELIS/Gamers- Mujeres que se la juegan (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/oYrbShbUv4SxcGVIYBpCLzxMmbf.jpg" alt="Gamers- Mujeres que se la juegan (2023)"></span></a></div>
+<a href="PELIS/j-hope IN THE BOX (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6EzOqBScbCqoTKCM77LEPxgSNTi.jpg" alt="J-Hope in the Box"></span></a></div>
+<a href="PELIS/Wild Life.html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/8MIODOLTrwdaQlyCIzdyihFz5Nv.jpg" alt="Wild Life (2023)"></span></a></div>
+<a href="PELIS/Víctima-Sospechosa (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qCxJPkutDXi1HOCBCtf1OsQQCl.jpg" alt="victima sospechosa"></span></a></div>
+<a href="PELIS/Una vida maravillosa (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kcDL57ZP833yQLC4kIqNpRziWOF.jpg" alt="una vida maravillosa"></span></a></div>
+<a href="PELIS/Tom Hanks The Nomad (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/dacx3E91IFXQ66fJLIhTVGSSxDw.jpg" alt="Tom Hanks: The Nomad (2023)"></span></a></div>      
+ <a href="PELIS/The Tank.html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/8DPTZ2znzbdtYemGMG8CLYyDTyz.jpg" alt="The Tank (2023)"></span></a></div>
+<a href="PELIS/El puño del cóndor (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/un2Yq2QFMvXlWlBdM0orrkiFUtb.jpg" alt="El puño del cóndor (2023)"></span></a></div>
+<a href="PELIS/SUGA Road to D-DAY (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/u2fkIhqMEUdoHeKIKym8yJ4W3p3.jpg" alt="SUGA: Road to D-DAY (2023)"></span></a></div>                 
+<a href="PELIS/Amén Francisco responde (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mErYvjHsOy8RP4WmM94sRzcQ3yC.jpg" alt="Amén: Francisco responde"></span></a></div>
+<a href="PELIS/Hellraiser IV El final de la dinastía sangrienta (1996).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/8gW1of1DlR37A6qj34PsqcXlw8h.jpg" alt=""></span></a></div>
+<a href="PELIS/Hellraiser V Inferno (2000).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/9qSSWiJ6JddxZcWr9OiI8VV3AFO.jpg" alt=""></span></a></div>
+<a href="PELIS/Hellraiser VI Hellseeker (2002).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/gXG1Ef113oLRydJS1w2ZoNC8sS1.jpg" alt=""></span></a></div>
+<a href="PELIS/Hellraiser VII Deader (2005).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/7G7npapXYc2o4anYtJM11Aki0Sn.jpg" alt=""></span></a></div>
+<a href="PELIS/En el filo de las olas (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/iZSw0JVG0cIFuZoTHuQU3nmGT4k.jpg" alt=""></span></a></div>
+<a href="PELIS/En el filo de las olas 2 (2011).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/nrxurRiSiqsC65qhu4PO0FAPDb0.jpg" alt=""></span></a></div>
+<a href="PELIS/Hellraiser VIII: Hellworld (2005).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/30kbhhs1gJfPpnwWKq6FvzqRYoW.jpg" alt=""></span></a></div>
+<a href="PELIS/Hellraiser Revelations (2011).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/m1uUFFpoEagIsyR7kUhxM5zrjqC.jpg" alt=""></span></a></div>
+<a href="PELIS/Hellraiser Judgment (2018).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/wDAvDtcvPhkBjGIrHRPhhkMnLuj.jpg" alt=""></span></a></div>
+<a href="PELIS/Hellraiser (2022).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/f9ZAIUxTTk23vo1BC9Ur1Rx5c2E.jpg" alt=""></span></a></div>
+<a href="PELIS/Infinity Pool (2023).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/5DNRr2juXdwtvktwXxwuk9Usk8O.jpg" alt=""></span></a></div>
+<a href="PELIS/Jackass 2 Todavía más (2006).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/1IBSlJi8Rz7vbluE9XgH4WnJAwE.jpg" alt=""></span></a></div>
+<a href="PELIS/Jackass 3.5 (2011).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/o0cILOYbqfppTLAhkI2tzA2BWtX.jpg" alt=""></span></a></div>
+<a href="PELIS/Jackass 3D (2010).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/rqK0MkfpWT2DpFjNzkvjHf0vxZ4.jpg" alt=""></span></a></div>
+<a href="PELIS/Jackass Forever (2022).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/rCfviMjtmvMJUGBWK1xjUsQhn7S.jpg" alt=""></span></a></div>
+<a href="PELIS/Jackass La película (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/pSdZUkluoxovi0fWibeO229oGpH.jpg" alt=""></span></a></div>
+<a href="PELIS/La barbería (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ykItJVBuFgGD1e4E5hSmhu5vKBg.jpg" alt=""></span></a></div>
+<a href="PELIS/La barbería 2 Vuelta al negocio (2004).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/t05hvSTaFuUf0gSTACuMlHerz7L.jpg" alt=""></span></a></div>
+<a href="PELIS/La barbería 3 Todo el mundo necesita un corte (2016).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mS02PgUL6vYn1yhJJuWbcLpYDj2.jpg" alt=""></span></a></div>
+<a href="PELIS/La hora 25 (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/2gcKRbdh7ozC3dIOiYNe87GB1o8.jpg" alt=""></span></a></div>
+<a href="PELIS/Las Chicas Superpoderosas La película (2002).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qWiiB9RFKQSF4tpG2NWnZ0gjB9Q.jpg" alt=""></span></a></div>
+<a href="PELIS/Llamen a Joe (2023).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/9lcQXlWDzNWxovybZtGbf8O9si5.jpg" alt=""></span></a></div>
+<a href="PELIS/Los Thornberrys: la película (2002).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ld710M4Ridhzv93Twde2At75wYj.jpg" alt=""></span></a></div>
+<a href="PELIS/Kung Pow El maestro de la kung fusión (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/xTDZ9MEvWTRuzG6C7yGuLLdqZgM.jpg" alt=""></span></a></div>
+<a href="PELIS/La máquina del tiempo (2002). html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/tjH6qXB9DRHiu81xAS1TGDwSzA5.jpg" alt=""></span></a></div>
+<a href="PELIS/Marvel Studios La Creación de un Universo (2014).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/41Ke02UzYoPsiTc3YbomPGiQKMl.jpg" alt=""></span></a></div>
+<a href="PELIS/Minority report Sentencia previa (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/q5qipy536mgsejg6AWPP9lmkGkG.jpg" alt=""></span></a></div>
+<a href="PELIS/Orange County (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/lmLcncTWV78v91tKBmI5ytjKvOc.jpg" alt=""></span></a></div>
+<a href="PELIS/Hey Arnold Una peli en la jungla (2017).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/zprqN4OxmCKlel6BfU5WeqzTyCf.jpg" alt=""></span></a></div>
+<a href="PELIS/Las aventuras de Pluto Nash (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/7ubzy7knLZp6jdzpdibkW8LGzrp.jpg" alt=""></span></a></div>
+<a href="PELIS/Snake Island Python (2022).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/bLLHkkV6bx6YsIyyEqWE7QSIOqs.jpg" alt=""></span></a></div>
+<a href="PELIS/The Closet (2020).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/rOmPMxF9xoNoNn4GbYPeyF3FOF6.jpg" alt=""></span></a></div>
+<a href="PELIS/Van Wilder 2 La rebelion de Taj (2006).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/AiqrSielVUnOOTJdzuxmnh0OXW3.jpg" alt=""></span></a></div>
+<a href="PELIS/El cubo (1997).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/e32QulxgiCCRg6mPmOWXMfAyy71.jpg" alt=""></span></a></div>
+<a href="PELIS/El Cubo 2 Hipercubo (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/gN5jiymsQW00AK7ZT2ftM7hVsWD.jpg" alt=""></span></a></div>
+<a href="PELIS/The Widowmaker (2015).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kuernQ8OMmcIYbW76zZD3NzWRzg.jpg" alt=""></span></a></div>
+<a href="PELIS/Abracadabra 2 (2022).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/gbbZNVuGSD6cPGZ4sfcrA59EKNY.jpg" alt="Abracadabra 2"></span></a></div>
+<a href="PELIS/que viva mexico (2023).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ieyUpr5ES9QEz1cn4clCnBf9XJl.jpg" alt=""></span></a></div>
+<a href="PELIS/hipnotic.html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/xsc85vhp6xJHyII9zIKd6nUTfpZ.jpg" alt=""></span></a></div>
+<a href="PELIS/Disconnect El organizador de bodas.html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/hoB5pA88k1s9e8HXWDj5JHOF3ZV.jpg" alt=""></span></a></div>
+<a href="PELIS/Fanfik.html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mTkVFMHuhMNOHAloQKEVY1vzwWa.jpg" alt=""></span></a></div>
+<a href="PELIS/Nada Que Ver.html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ofnOwcG9l1DuGl7vB45JHsfSlR6.jpg" alt=""></span></a></div>
+<a href="PELIS/Bendita Suegra.html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/5xupm2thQic5GzYi6nim6URMZOY.jpg" alt=""></span></a></div>
+<a href="PELIS/Hasta la madre del Día de las Madres.html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/j741ip55NOzabrllOXHJv2vpag7.jpg" alt=""></span></a></div>
+<a href="PELIS/Los blancos no saben saltar.html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/faxmOb7s9Snm4hA6qJN8eYvfpcu.jpg" alt=""></span></a></div>      
+<a href="PELIS/Medellin (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/miC8yrs5kPgmfbnPpgDqeoF2nJX.jpg" alt=""></span></a></div>
+<a href="PELIS/Tin y Tina.html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/uvREA7LTsPsHz4i0Ds82Fzez7K6.jpg" alt=""></span></a></div>
+<a href="PELIS/Los Tres Mosqueteros.html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/dxQDJ8LhQQvkGbJmiB1i2gt38Ok.jpg" alt=""></span></a></div>
+<a href="PELIS/Robots.html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w260_and_h390_bestv2/xZJjhkxHMYaBGD75jsiuH5TB6wE.jpg" alt=""></span></a></div>
+<a href="PELIS/Spider Man A través del Spider Verso.html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qqXTerrQYwg9pIMhb1GFbxa3WUz.jpg" alt=""></span></a></div>
+<a href="PELIS/Sisu (2023).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/2x3iCtOXHydQBnyKueNxRhPUvG3.jpg" alt=""></span></a></div>
+<a href="PELIS/snag.html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/8SWfoi5GuE8WCaLVnjEAVsyCa5z.jpg" alt=""></span></a></div>    
+<a href="PELIS/Reality.html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kiZv2drBhQZlljeVhDBqNWwug95.jpg" alt=""></span></a></div>        
+<a href="PELIS/demonio negro.html">
+      <div class="image" data-name="terror"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNbae4Nw8zHZUZOvXhWKzXgOzyzfufOc5IRQ&usqp=CAU" alt="Emboscada"></span></a></div>        
+<a href="PELIS/Emboscada.html">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw0INhwQ0QnnNltudNsxF_5plyR3xDxCuTig&usqp=CAU" alt="Emboscada"></span></a></div>        
+<a href="go:lasirenita">
+      <div class="image" data-name="animacion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0XIYg-u1ozYqblPxMHL_a3FcH8HRcBe3NgQ&usqp=CAU" alt=""></span></a></div>
+      <a href="go:sangreyoro">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTncqDPr-ITY-4o6VbsYSP4JKYq9yfC_dYx9EaeXl5uW1RpXcI4" alt=""></span></a></div>
+<a href="go:theweeknd">
+      <div class="image" data-name="documental"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUixy0-VWawSkuBLzKyFWGigp5eeAYeVlMiw&usqp=CAU" alt=""></span></a></div>
+<a href="go:yaerahora">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREL6-bEADEEC71j9U2UtB_fpFJR0ejdVNNlg&usqp=CAU" alt=""></span></a></div>
+<a href="go:lamadre">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAgbbgfkl1VXC9xoIOrDzyufkzvTnCDNKRsw&usqp=CAU" alt=""></span></a></div>
+<a href="go:ghosted">
+      <div class="image" data-name="accion"><span><img src="https://i.ibb.co/sQyB1y2/Ghosting-893719442-large.jpg" alt=""></span></a></div>
+<a href="go:powerrange">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC0Csz_5t3mC72RXyKiCN7x6GOhH3-X7p40w&usqp=CAU" alt=""></span></a></div>
+<a href="go:soyinocent">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlVbUjIkNtXKjAPU4-1lHGzG9cCxu3_EacPQ&usqp=CAU" alt=""></span></a></div>
+<a href="go:7reyes">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtXljD51EWIY0JgX5bsPYF8pQFspOrYmSRSw&usqp=CAU" alt=""></span></a></div>
+<a href="PELIS/The covenant.html">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS_R4W9JlZk1FUrSyYcUqajkY2SECyW5W_hA&usqp=CAU" alt=""></span></a></div>
+<a href="go:desconecta">
+      <div class="image" data-name="drama"><span><img src="https://i.ibb.co/pw72nkJ/Picsart-23-05-14-00-44-42-062.jpg" alt=""></span></a></div>
+<a href="go:sakra">
+      <div class="image" data-name="accion"><span><img src="https://i.ibb.co/9HrGhkB/Picsart-23-05-14-00-44-26-373.jpg" alt=""></span></a></div>
+<a href="go:assassincl">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiK_RKvYaAsRJohIwlUQVN9eMTM20q2GRMYw&usqp=CAU" alt=""></span></a></div>
+<a href="go:atrapamesi">
+      <div class="image" data-name="comedia"><span><img src="https://i.ibb.co/tQtdWpy/Picsart-23-05-14-00-45-47-680.jpg" alt=""></span></a></div>
+<a href="go:crater">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzu-O_1yFEe8I1VbNwpnfBdamg-VHfZxnYFg&usqp=CAU" alt=""></span></a></div>
+<a href="go:gdlag2023">
+      <div class="image" data-name="accion"><span><img src="https://i.ibb.co/jk2r0B2/Picsart-23-05-06-12-43-30-030.jpg" alt=""></span></a></div> 
+  <a href="PELIS/Guardianes de la Galaxia especial felices fiestas (2022).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/lVBvU4bnskMli0RSK5vWZbiTVja.jpg" alt="Guardianes de la Galaxia: especial felices fiestas (2022)"></span></a></div>               
+<a href="go:quierotv">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQm36VkkRFrMqY-LxjZOBrbNUxmdR6tdRvRutG4soCH-7OULEF7" alt=""></span></a></div>
+      <a href="go:1pmorir">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc2LiuxNJh0DvN69wwAwUYeVLiqWDAemNgYw&usqp=CAU" alt=""></span></a></div>
+<a href="go:inside">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStI7uvYZR68hQoaL0JrIKDCcWFfc8bDCD4yA&usqp=CAU" alt=""></span></a></div>            
+<a href="go:rendield">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3IaEk-qJmsTUPirX9JeSKk0yWqC3CJlFaQ&usqp=CAU" alt=""></span></a></div>
+      <a href="go:epapa">
+      <div class="image" data-name="terror"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy9lV1D9_MrCQzOOEFwUARx5ZB2A2obv3MoA&usqp=CAU" alt=""></span></a></div>
+<a href="go:infelices">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_h7O439VxP6HDKspufiKfgSgrPWq5YKiTjw&usqp=CAU" alt=""></span></a></div>
+<a href="go:elpaisdelo">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzFe3IsLcZlBOWSCGnPfrsBED22_DKtVdUlA&usqp=CAU" alt=""></span></a></div>            
+<a href="go:aquiensoli">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHq3-io91KhUvDx8ppGnbcOHy2_9NSqtsH5Q&usqp=CAU" alt=""></span></a></div>
+      <a href="go:belinda">
+      <div class="image" data-name="comedia"><span><img src="https://i.ibb.co/LgLZpFq/Picsart-23-05-05-16-43-09-563.jpg" alt=""></span></a></div>
+<a href="go:casiimpo">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ5Ou0WVjS7DJfTTfQbp2gyk_5LDih2f-55w&usqp=CAU" alt=""></span></a></div>
+<a href="go:champions">
+      <div class="image" data-name="comedia"><span><img src="https://i.ibb.co/tMknGtH/Picsart-23-05-05-16-42-45-316.jpg" alt=""></span></a></div>
+<a href="go:boksoonm">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDIiA73x7w7UcO4YVyHgYEKhM4Mx2LcJRLyg&usqp=CAU" alt=""></span></a></div>
+<a href="go:atmidnigt">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRBAcQtP6C5F0H1rGa7WXgCy9wQ3Pp89cZcQ&usqp=CAU" alt=""></span></a></div>
+<a href="go:chupa">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB283awyEjmZAAmdBHS8smeqwyF38ZeipFhw&usqp=CAU" alt=""></span></a></div>
+<a href="go:elasistent">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqu0isDpry9hQT6z9r3-EqI4UpusYiif710w&usqp=CAU" alt=""></span></a></div>
+<a href="go:detective">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSgAe3SzppkVLEP1Gb_HoLR7VorlYHhFx8Jw&usqp=CAU" alt=""></span></a></div>
+<a href="go:elhoyo">
+      <div class="image" data-name="terror"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTam5TwyV7iWQs6bgWXoLWliv9u1P9akFG1pA&usqp=CAU" alt=""></span></a></div>
+<a href="go:estrangula">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSj20epOlsMvoa6xrVlvictoTQ22b52gm8NuyYZ49dmb7EDX5kE" alt=""></span></a></div>
+<a href="go:fugaderein">
+      <div class="image" data-name="comedia"><span><img src="https://i.ibb.co/16D0kJ8/Picsart-23-05-05-16-42-17-661.jpg" alt=""></span></a></div>
+<a href="go:encontrolo">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT4I_LuBxI6JYfsK5wq-DF1ulQBCZ0ODxTvA&usqp=CAU" alt=""></span></a></div>
+<a href="go:elvuelodel">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBZFuFXFsDdLBrpJxxc6lO3yBZTElnleujPg&usqp=CAU" alt=""></span></a></div>
+<a href="go:hambre">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSykLvwRV1WqzncRw9hXqEPmT1GnMWtgDsSBw&usqp=CAU" alt=""></span></a></div>
+<a href="go:houseparty">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7fGqwTgmZwVbOU7qlAVhCE-6qKbx0OA00ag&usqp=CAU" alt=""></span></a></div>
+<a href="go:identidadd">
+      <div class="image" data-name="drama"><span><img src="https://i.ibb.co/441vjNP/Picsart-23-05-05-16-41-58-620.jpg" alt=""></span></a></div>
+<a href="go:peterpan">
+      <div class="image" data-name="animacion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2auetmRQ3zPfRm1SV4Z8IitJF2q52QxVSAm3pCj2hxhwt70eTzdc4_6E&s=10" alt=""></span></a></div>
+<a href="go:praisethis">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcStKW-0a9XO15xVvxO6rtmvX9UonKmMl7kHbFCKGDJpCbe5V5Bc" alt=""></span></a></div>
+<a href="go:phacerloc">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTJT-8jeh8lGmqbLg9Sf1G0-DM7ArD3dcXXXg_ZENmEoHKTpCc9" alt=""></span></a></div>
+      <a href="go:quasi">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTJJSUQdtCDSsWF2VYH0lIWgzSX4B0ib5_ELuA-Qbg4OyTXGV9_" alt=""></span></a></div>
+<a href="go:queridod">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRldQu8Zg1fg8UkTqaAt9exgCPyiqtyb-zACg&usqp=CAU" alt=""></span></a></div>
+<a href="go:teenwolf">
+      <div class="image" data-name="terror"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmur3xFid4FfySjkRRJMEWWkpETLLPE-fnDmzESnhRU5Rfyu66Vxvt-OCO&s=10" alt=""></span></a></div>
+<a href="go:tangostyma">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYlYz1jp25IRMQj2SBO6w8dRIuOh43un8BwA&usqp=CAU" alt=""></span></a></div>
+      <a href="go:ryelane">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTif_hTTsIdmH36U3YF8tHeVNIXLHahk033FMyrsDtnumAIbnM8" alt=""></span></a></div>
+<a href="go:remember">
+<div class="image" data-name="terror"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmqq6HIVIvoYU0GDlgxIyAgvVOqmxucSZTnEscp3IQRqSJJX_Q" alt=""></span></a></div>
+<a href="go:theresome">
+    <div class="image" data-name="terror"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3c4NKuFkaB_qRadBuyUcgnL7qCp3f4FHzIg&usqp=CAU" alt=""></span></a></div>
+<a href="go:tfantasma">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRozznivnrtnZCYrG8MaEX6Kk156tOJ7QywcQ&usqp=CAU" alt=""></span></a></div>            
+<a href="go:udeciden">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZhyhmEhwg3KXEM_zD_uvPwQq8c4uzkpbrZg&usqp=CAU" alt=""></span></a></div>
+      <a href="go:transfusio">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQCYh83WqlLsteCuL_WaT97Q7X9E-oxtxU0ag47gEuY0Nml0WHF" alt=""></span></a></div>
+<a href="go:pactode">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSO_dIMBwgabCNATGe9suZ_M_fWAbZBRQp8fwVT5P4kQNB3bvph" alt=""></span></a></div>
+<a href="go:llamochihi">
+      <div class="image" data-name="drama"><span><img src="https://i.ibb.co/VJdbxrX/Picsart-23-05-05-15-09-05-885.jpg" alt=""></span></a></div>
+<a href="go:narvik">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIlUEGzl607fnSJ_m_nFvWiFoDebOnLSGjOI5o62AjBN5_rCZjtaM5p8w&s=10" alt=""></span></a></div>
+      <a href="go:malcriados">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRgxu6DYuofLv8tlIXYt1HtNbAfyDvuvp-noXC-9SzKBrf5_gvD" alt=""></span></a></div>
+<a href="go:losreyes">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS09zMNxFrV9peOPbymitOiPtqdKJZJVD6Ps8qHtJgk57UjGyY2" alt=""></span></a></div>
+<a href="go:caballeros">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSUB98zZUjJu_BXrzPsjY9txIcA8_cp6v3kH6E-DRdBiXFaK9YZ" alt=""></span></a></div>
+<a href="go:doncella">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQvLAs6XR2XV-Zj09kZX9NNbeQGSW25xOgLAVDf-wlx2tPFXfB-" alt=""></span></a></div>
+      <a href="go:jungle2023">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1kh6k8DfGqr0gQow3_RQYe9TJveK8yOn5Mw&usqp=CAU" alt=""></span></a></div>
+<a href="go:jesusrevo">
+<div class="image" data-name="drama"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Ls1A2R8zUnjPdqsgdN6MLRUmHv2nPjgDlQ&usqp=CAU" alt=""></span></a></div>
+<a href="go:mimaestra">
+    <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw_3ex7Cs7wHLZXRjdvnM1lgfrfUQnEnEjWQ&usqp=CAU" alt=""></span></a></div>      
+<a href="go:smb2023">
+      <div class="image" data-name="animacion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8tnLSBud2PL6jgFhUC6VZZXW151djvMEwA&usqp=CAU" alt=""></span></a></div>
+<a href="go:calay">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS_CSWLDrapGZBf5m-lXuFh-MSlIuS5_4WTg&usqp=CAU" alt=""></span></a></div>
+<a href="go:misteryv">
+      <div class="image" data-name="comedia"><span><img src="https://i.ibb.co/qpZzfW7/Picsart-23-05-14-15-24-56-621.jpg" alt=""></span></a></div>
+      <a href="go:tetris1">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1tZPPw6X0fOX00V080x-yR9dZqjN2qRYy2A&usqp=CAU" alt=""></span></a></div>
+<a href="PELIS/Arañas devoradoras (2007).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/Asp7hjh1CfZoOxSJ3cr2RiVx3yt.jpg" alt=""></span></a></div>
+<a href="PELIS/8 millas (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/bRSMRkf06aUeZcmr5Cyxuv5vk4T.jpg" alt=""></span></a></div>
+<a href="PELIS/El hijo (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/cKmSgC8zinLpYyNK7Aqv9HIaqcW.jpg" alt=""></span></a></div>
+<a href="PELIS/Dragon Ball Super Super Hero (2022).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/k24F6Fh523CZJpabz1nyUb6Yimu.jpg" alt=""></span></a></div>
+<a href="PELIS/Devotion. Una historia de héroes (2022).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/nxXJLtFRLnTP3Wm8g17i8ABxQ8o.jpg" alt=""></span></a></div>
+<a href="PELIS/El indomable Will Hunting (1997).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/tKyUetcDB6ayUqQGfeQOC8LW0aj.jpg" alt=""></span></a></div>
+<a href="PELIS/Isosceles (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/zJarhodfImuUp2DiAlHO2y2ujkt.jpg" alt=""></span></a></div>
+<a href="PELIS/Mechanic: Resurrection (2016).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/y1JPE0tTPFgfxJFSpLgHavWuvnu.jpg" alt=""></span></a></div>
+<a href="PELIS/La Dama y el Vagabundo (1955).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/j4in9pWwnYeXyf1Z3303nXbzFAS.jpg" alt=""></span></a></div>
+<a href="PELIS/Spiderhead (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/55aoNx66sWJrloedh1YwJaNJHtJ.jpg" alt=""></span></a></div>
+<a href="PELIS/Muerte en el Nilo (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/4Fbl3qZSraPXdgmQQzQIDJA736N.jpg" alt=""></span></a></div>
+<a href="PELIS/La ciudad perdida (2022).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/bf604zAIxNEmPIiRiChLpTnQ8zr.jpg" alt=""></span></a></div>
+<a href="PELIS/Los reyes del mundo (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/j2BdT6WC1BZYgplysY0v2Y50JHi.jpg" alt=""></span></a></div>
+<a href="PELIS/Ascenso al límite (2022).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/7iBxmvuFZgzilZcZp2t9IiTYkba.jpg" alt=""></span></a></div>
+<a href="PELIS/Los crímenes de la academia (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/90Tle5e429OdpMmvuRrcQLrCRiT.jpg" alt=""></span></a></div>
+<a href="PELIS/Las Caras de la Verdad (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/oxDp1OJyiTPUYm4ykqJrlkkMABy.jpg" alt=""></span></a></div>
+<a href="PELIS/Shooting Stars (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/n4C4bYn5a9PKCKDjW1BT3Vp3BEs.jpg" alt=""></span></a></div>
+<a href="go:boksoon">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO5ZL3RUGJmVsarHVtMGtastxXDsDFRZ5BzQ&usqp=CAU" alt=""></span></a></div>
+<a href="go:adiccionp">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnblTRCBLOcoxpmqzTbl4pRY89NG2DTN5fvA&usqp=CAU" alt=""></span></a></div>
+<a href="PELIS/John Wick 4 (2023)">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZMtybHud6RWHzYk7d27jkvScWGwDuEqNQA&usqp=CAU" alt=""></span></a></div>
+      <a href="go:saye">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPTuA6tUd-WGbN-LS-jd6jnz8dVaqwgRmBWA&usqp=CAU" alt=""></span></a></div>
+<a href="go:avatar22">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR2LI0vvoUv6ZulAZ1eiu76vz2VTsaRW_7wA&usqp=CAU" alt=""></span></a></div>
+      <a href="go:meetm">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsmqmiZTAlI2nmDZha9W3T-gNcT0sTkq0MtQ&usqp=CAU" alt=""></span></a></div>
+<a href="go:amoralc">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTHo0oLIZ5vT93yNtFtsVXRLEj8sx7KJXpW_B2RjtKHWF8gjGRH" alt=""></span></a></div>            
+<a href="go:shazam22">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn2w-yVVurkFHAHrLhGjtOgGdnktGUxe3kwg&usqp=CAU" alt=""></span></a></div>
+      <a href="go:osovicios">
+      <div class="image" data-name="comedia"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlLtHm5BZQcYKOq7K1u_iLarjopzrJZwzIKw&usqp=CAU" alt=""></span></a></div>
+<a href="PELIS/La casa entre los cactus (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/xTpKsMNOuMhLjXqHMiP1Wr7pLel.jpg" alt=""></span></a></div>
+<a href="PELIS/Squeaky Clean Mysteries Hazardous Duty (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/sWop6NbwVpuR0vQEXHHh1xs5lvy.jpg" alt=""></span></a></div>
+<a href="PELIS/Un Debate Brillante (2020).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/5MnS4GLxztucU4BGLtXFaDCqVL3.jpg" alt=""></span></a></div>
+<a href="PELIS/Mal de ojo (2022).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mZD5f5oRXHSPD54S3FdhNiNpK3l.jpg" alt=""></span></a></div>
+<a href="PELIS/Adiós, señor Haffmann (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/5Lxsln5naXidztPQQJbAcqA76dz.jpg" alt=""></span></a></div>
+<a href="PELIS/Ruido (2022).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/lhuzB4K28uwYqtyrEAfrxZD3YWC.jpg" alt=""></span></a></div>
+<a href="PELIS/Narvik (2022).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mraEP5dvnZB94EF7qzG3m7KXyIC.jpg" alt=""></span></a></div>
+<a href="PELIS/Mad Heidi (2022).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/jhCUIKjo4K7m6FlbjDa7v17KaiE.jpg" alt=""></span></a></div>
+<a href="PELIS/Falsa Influencer (2022).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/n58ah96w7yT2gprDi7J8U4DYdi.jpg" alt=""></span></a></div>
+<a href="PELIS/Perfect Blue (1997).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kk8p22JheV6MB0fBXOOUgZK9UWQ.jpg" alt=""></span></a></div>
+<a href="go:mile2">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKyBUMdT-Ro5TLCQ3-XVPVp8-ws0JFCyVw4p3hQno7VFAMIq0db_9xOoae&s=10" alt=""></span></a></div>
+<a href="go:alertae">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU_yidGW5Q4ZymPRdIWHbmrdvDSt1udej5HA&usqp=CAU" alt=""></span></a></div>
+      <a href="go:winniethep">
+      <div class="image" data-name="terror"><span><img src="https://i.ibb.co/h7g6wDm/Picsart-23-05-14-15-25-17-882.jpg" alt=""></span></a></div>
+<a href="go:creed33">
+<div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS56ZFEISSvYEsNN3zAuXuzYOSPSkH6Oz7SQw&usqp=CAU" alt=""></span></a></div>
+<a href="go:65p">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTiWgR8aXMyTppgAC-GUvTLPKw3wibvhRCTw&usqp=CAU" alt=""></span></a></div>
+<a href="go:luther">
+      <div class="image" data-name="comedia"><span><img src="https://image.tmdb.org/t/p/w342/eCvBFo3jjKViSuhcsOdVbcsFCq4.jpg" alt=""></span></a></div>
+<a href="go:screamvi">
+      <div class="image" data-name="terror"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWwdct2Bx1qeiqkTxRVtFMSD3qFhP-ISFoOA&usqp=CAU" alt=""></span></a></div>
+      <a href="go:pinochooo">
+      <div class="image" data-name="animacion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSddv1P7hgnPAuiTg_lJ-CPI8ylirgNIu21hA&usqp=CAU" alt=""></span></a></div>
+      <a href="go:llamanala">
+      <div class="image" data-name="terror"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3lXdiz6Sq-cyaAwTYIWGzeJo71MhxJPlaZQ&usqp=CAU" alt=""></span></a></div>
+<a href="go:antman">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Htrbg8tpjD6-3Zp2lIMqrO1d_jdxAyTtiw&usqp=CAU" alt=""></span></a></div>
+<a href="go:laballena">
+      <div class="image" data-name="drama"><span><img src="https://i.ibb.co/80R3HZv/Picsart-23-05-14-15-21-24-697.jpg" alt=""></span></a></div>
+      <a href="go:gatoconb">
+      <div class="image" data-name="animacion"><span><img src="https://i.ibb.co/WGjTT7f/Picsart-23-05-14-15-21-53-115.jpg" alt=""></span></a></div>
+<a href="PELIS/Air (2023).html">
+<div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/4ypRUscxdPXjF2o3BzsKsCUrkpK.jpg" alt=""></span></a></div>      
+<a href="go:fortun">
+<div class="image" data-name="comedia"><span><img src="https://i.ibb.co/WDWC5y3/Picsart-23-05-14-15-21-37-501.jpg" alt=""></span></a></div>
+<a href="go:infesto">
+      <div class="image" data-name="drama"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnC82Mx1RKD_Frw6AGF7sQshk74EeI_ISig&usqp=CAU" alt=""></span></a></div>
+<a href="go:theoldway">
+      <div class="image" data-name="drama"><span><img src="https://i.ibb.co/LxBkmpS/Picsart-23-05-14-15-19-01-773.jpg" alt=""></span></a></div>
+<a href="go:mummies">
+      <div class="image" data-name="animacion"><span><img src="https://i.ibb.co/h1HdmF1/Picsart-23-05-14-15-19-14-085.jpg" alt=""></span></a></div>      
+<a href="go:ksi">
+      <div class="image" data-name="documental"><span><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcThCKqmiuDYi0UQGr5kjzY-xva28vE8dDAavSRAwn3zPtmcYFFV" alt=""></span></a></div>
+<a href="go:aka">
+      <div class="image" data-name="accion"><span><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTF2PGOg7PlXoXFM2nMjYcC6qHBRWZQfHEMSX7yUmO0d4Dmqwjq" alt=""></span></a></div>
+<a href="go:laabsoluta">
+      <div class="image" data-name="documental"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrfflSa3L4xh_AtOS_8BSho9rs1Hw96_Y1jQ&usqp=CAU" alt=""></span></a></div>
+<a href="go:losextrano">
+      <div class="image" data-name="terror"><span><img src="https://i.ibb.co/PwY1bbF/Picsart-23-05-14-15-18-48-729.jpg" alt=""></span></a></div>
+<a href="go:legions">
+      <div class="image" data-name="animacion"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfVt1H5aNF9rzV5gRjVu1QJKNGhsu3suvaZw&usqp=CAU" alt=""></span></a></div>
+<a href="go:pornhub">
+      <div class="image" data-name="documental"><span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJpqCMBsoea34I0-BjEvMuop4mLcy4sD47HQ&usqp=CAU" alt=""></span></a></div>       
+<a href="PELIS/Amar te duele (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/eyhd9wLlyDTGOKl4jmzWy5sa90o.jpg" alt=""></span></a></div>
+<a href="PELIS/Daño colateral (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/2zSBTVpUA2FGvIOJw7GlcnsbSgz.jpg" alt=""></span></a></div>
+<a href="PELIS/Daphne y Velma (2018).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/yGykHr7DXKasZ75X5bu8DCeIsnU.jpg" alt=""></span></a></div>
+<a href="PELIS/Drumline (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/zl7gdxYqKdFCioPT3DAkZR5DDUP.jpg" alt=""></span></a></div>
+<a href="PELIS/El ataque de las arañas (2002).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/jHKdT5wWgJqjbVzmrQZI80W7ni6.jpg" alt=""></span></a></div>
+<a href="PELIS/El planeta del tesoro (2002).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/cwwRIK1V1R6QQKromGi0OaJLD8l.jpg" alt=""></span></a></div>
+<a href="PELIS/Embriagado de amor (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/r6FdxsG9Eu9Irq7YffiZV1vh7Cm.jpg" alt=""></span></a></div>
+<a href="PELIS/Este cuerpo no es mío (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/c1r1LX49vuO6AXnk7xisSuMER9U.jpg" alt=""></span></a></div>
+<a href="PELIS/Eterna juventud (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/1eTDXglX0N3D3kr6leI9dXiiRMw.jpg" alt=""></span></a></div>
+<a href="PELIS/Frida (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/hpALYXywkLhLV8zieXpIg5xSv5u.jpg" alt=""></span></a></div>
+<a href="PELIS/Frio De Perros (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mNniUPUr5Sve8fEyf6K5JrfnyyA.jpg" alt=""></span></a></div>
+<a href="PELIS/Infidelidad (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/urj2l9TPlKfu8RIyXZbAoUstDMk.jpg" alt=""></span></a></div>
+<a href="PELIS/John Q Situación extrema (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/iV24tt4LPIwtN5WUU7T35yRn0sj.jpg" alt=""></span></a></div>
+<a href="PELIS/La habitación del pánico (2002).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/tKgHmaBJ6aUgG6JUFgURdhwlqTs.jpg" alt=""></span></a></div>
+<a href="PELIS/La suma de todos los miedos (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/gsjsliuKiHyUcriCe2pyhAMnHFm.jpg" alt=""></span></a></div>
+<a href="PELIS/Bad Company (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qPWIya8byyRbIuuKdViWMNWK7O1.jpg" alt=""></span></a></div>
+<a href="PELIS/Nada que perder (1997).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/yvUoeqCYoIWZOhWEnlp5PM82yyb.jpg" alt=""></span></a></div>
+<a href="PELIS/Norbit (2007)">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/cCAeo4Yx2osjmj2YHNUyQmZJxdj.jpg" alt=""></span></a></div>
+<a href="PELIS/Nos Miran (2002).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/dUX7ACsKaOZZMxDajoLIsUZwXaL.jpg" alt=""></span></a></div>
+<a href="PELIS/Nunca más (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/cRRyl6rWBZp4Y5zUvZsETBeGTN3.jpg" alt=""></span></a></div>
+<a href="PELIS/Gangs of New York (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/oriWw159WYMycVWRAtEjzab2c4a.jpg" alt=""></span></a></div>
+<a href="PELIS/El becario (2015).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/sR1rAqOjFdvrxWb18KNG8lpNJZf.jpg" alt=""></span></a></div>
+<a href="PELIS/Pearl (2022).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/z5uIG81pXyHKg7cUFIu84Wjn4NS.jpg" alt=""></span></a></div>
+<a href="PELIS/Rebelión - Joe Arroyo (2022).html">
+      <div class="image" data-name="documental"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/1oNa6Zdb2lWJl6RCYEA4nWmphWf.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby-Doo y el rey de los duendes (2008).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6pisDa9Mp8c8Vcb3T0V3Xo6WzL6.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby-Doo (2002).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/vX6NAkWHicHDgGYa192Kt47dPWI.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby-Doo Comienza el misterio (2009).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/yNwINhp3Hu5OPClHFc2wKnETdLJ.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby Doo La maldición del monstruo del lago (2010).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/9tPpBEEKOpfbYfLuxUrU8fSgkM8.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby-Doo 2 Desatado (2004).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/fle7LcxVeWTUcEOvxjgD8VsR7ne.jpg" alt=""></span></a></div>
+<a href="PELIS/¡Scooby-Doo Y la maldición del fantasma número 13 (2019).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/nsxAP1F3qQ9C4c1C9hB7iTw8P1O.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby-Doo Misterio en el circo (2012).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/9l6Cm4sBm1gzA94HuULtJFaFnSd.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby-Doo Misterio en la lucha libre (2014).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/nhKCf21uVpiInMrSD3Bt8jsTOA3.jpg" alt=""></span></a></div>
+<a href="PELIS/Scooby-doo La máscara del Halcón azul (2013).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/x1WkokT1NyR2CFjXDVLNPlCaF9v.jpg" alt=""></span></a></div>
+<a href="PELIS/Shottas (Hermanos en el crimen) (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/amOWE3VqD0rKDiHZSWhYcpYZcxq.jpg" alt=""></span></a></div>
+<a href="PELIS/Paranormal Movie (2013).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ut5wkSUZkOymYSEYwqoMrm839ek.jpg" alt=""></span></a></div>
+<a href="PELIS/Paranormal Movie 2 (2014).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qv3uZUta4UWRNDMdDKSRGhA6lwC.jpg" alt=""></span></a></div>
+<a href="PELIS/Windtalkers (2002).html">
+      <div class="image" data-name="accion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/nDVe8IpViR0bdFrraEN2IZnBanN.jpg" alt=""></span></a></div>
+<a href="PELIS/Weak Rangers (2022).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/2P6rVxtmSQy17n3Yj0h2V7ZHdXR.jpg" alt=""></span></a></div>
+<a href="PELIS/Lobo vikingo (2022).html">
+      <div class="image" data-name="terror"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/gd6ZQn6bM2IEELW8lURA9dP2jiO.jpg" alt=""></span></a></div>
+<a href="PELIS/Vértigo (2022).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6Vfb3yrh8erMVlea5JbvbYohelU.jpg" alt=""></span></a></div>
+<a href="PELIS/Un héroe encubierto 2 (2019).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/soSu46hWuJETRjKG23um0nHQ15c.jpg" alt=""></span></a></div>
+<a href="PELIS/Un héroe encubierto (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/nvCfiunrDyupMTw8TULRyOYp3vz.jpg" alt=""></span></a></div>
+<a href="PELIS/Un gran mentiroso (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ff25aCBYRlwmAFyZxLrFfvB1DnP.jpg" alt=""></span></a></div>
+<a href="PELIS/Sueño de Amor (2002).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/z2xOLfKnRbGCsj4Uh5B47T4SgUb.jpg" alt=""></span></a></div>
+<a href="PELIS/Tengo sueños eléctricos (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/cfYAkU4Hb9enlDi9imqy670yOsi.jpg" alt=""></span></a></div>
+<a href="PELIS/Tarzán y Jane (2002).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/5Ihol4KgJZeC8ROjuIUjf73jN8L.jpg" alt=""></span></a></div>
+<a href="PELIS/Tarzán 2 El origen de la leyenda (2005).html">
+      <div class="image" data-name="animacion"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6kfyBXa1pnLiB7tc0j1rsvCJIOQ.jpg" alt=""></span></a></div>
+<a href="PELIS/Terminal Young (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/8bsFVxWC7vYdRCwhe5YfN9Wn8Tu.jpg" alt=""></span></a></div>
+<a href="PELIS/The Rookie (El novato) (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/hi00HeC8qU8zNluwmT7KzZ8skbH.jpg" alt=""></span></a></div>
+<a href="PELIS/El triángulo de la tristeza (2022).html">
+      <div class="image" data-name="comedia"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/9DteuuOubo3bZPgrmvrTb5mgNxw.jpg" alt=""></span></a></div>
+<a href="PELIS/Un paseo para recordar (2002).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/sExhLnUyj6mUZUCsBx6snp9jX9E.jpg" alt=""></span></a></div>
+<a href="PELIS/Walk With Me (2021).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/c864tah00ONApBMptfu4hFPU8dI.jpg" alt=""></span></a></div>
+<a href="PELIS/Un año inolvidable - Invierno (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/rDaQeyPdIwhw7fqlIgMye50emMM.jpg" alt=""></span></a></div>
+<a href="PELIS/Un año inolvidable - Otoño (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ybiqXxDaEFvWX6bEVD78IPVGVD6.jpg" alt=""></span></a></div>
+<a href="PELIS/Un año inolvidable - Primavera (2023).html">
+      <div class="image" data-name="drama"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/ugKed25uz7AE2mA2J8I6XVwbE5k.jpg" alt=""></span></a></div>
+<a href="PELIS/Por mis pistolas (1938).html">
+      <div class="image" data-name="cine"><span><img src="https://www.themoviedb.org/t/p/w440_and_h660_face/7mNN19LNINcWhHgDDMtdKMFzMi1.jpg" alt=""></span></a></div>
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+			           
+ 
+    </div>  
+    </div>
+    </div>
+    </br></br></br>
+<script>
+    // xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    // abri-ventanas-rmodal-1
+    function abrirmodal1(){
+        document.getElementById("modal1").style.display="grid";
+    }    
+    function cerrarmodal1(){
+        document.getElementById("modal1").style.display="none";
+    }        
+    // <!-- javascrip-para-el-elemento-preload -->
+      window.onload = function(){
+          $("#spinner").fadeOut();
+          $("body").removeClass("hidden")
+      }
+    // <!-- javascrip-para-el-elemento-preload -->
+    </script>
+    <script>    
+const filterItem = document.querySelector(".items");
+const filterImg = document.querySelectorAll(".gallery .image");
+window.onload = ()=>{     
+  filterItem.onclick = (selectedItem)=>{       
+        if(selectedItem.target.classList.contains("item")){ 
+          filterItem.querySelector(".active").classList.remove("active");                         selectedItem.target.classList.add("active");         
+      let filterName = selectedItem.target.getAttribute("data-name");         
+      filterImg.forEach((image) => {
+        let filterImges = image.getAttribute("data-name");                     
+        if((filterImges == filterName) || (filterName == "all")){
+          image.classList.remove("hide");             
+          image.classList.add("show");             
+        }else{
+          image.classList.add("hide"); 
+            
+          image.classList.remove("show");             
+        }
+      });
+    }
+  }
+  for (let i = 0; i < filterImg.length; i++) {
+    filterImg[i].setAttribute("onclick", "preview(this)");       
+  }
+}
+</script>
+<!--� AQUI TERMINA LA PLANTILLA �-->
+
+
+
+
+
+</div></div>
+<br>
+<!--Barra de navegacion-->
+<div id="s-f"></div>
+<footer id="foot">
+<div class="icon-bar">
+  <a  href="go:inicio"><i class="fa fa-home"style="font-size:19px;cursor: default; padding-top:12px;"><div  style=" padding-top:5px; font-size:9px;  font-weight:600; font-family: 'Poppins', sans-serif;">Inicio</div></i></a>  
+<a class="active" href="go:categorias"><i class="fa fa-film"style="font-size:19px;cursor: default; padding-top:12px;"><div  style=" padding-top:5px; font-size:9px;  font-weight:600; font-family: 'Poppins', sans-serif;">Estrenos</div></i></a>   
+<a href="go:tvchannel"><i class="fa fa-tv"style="font-size:19px;cursor: default; padding-top:12px;"><div  style=" padding-top:5px; font-size:9px;  font-weight:600; font-family: 'Poppins', sans-serif;">Canales</div></i></a>  
+<a href="go:series"><i class="fa fa-video-camera"style="font-size:19px;cursor: default; padding-top:12px;"><div  style=" padding-top:5px; font-size:9px;  font-weight:600; font-family: 'Poppins', sans-serif;">Series</div></i></a>  
+<a href="go:ajustes"><i class="fa fa-sun-o"style="font-size:19px;cursor: default; padding-top:12px;"><div  style=" padding-top:5px; font-size:9px;  font-weight:600; font-family: 'Poppins', sans-serif;">Ajustes</div></i></a>  
+</div>
+</footer>
+<!-- FIN BOTINES INFERIORES -->
+
+
+</div>
+</footer>
+</body>
+</html>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+</span>
+<span class='post-timestamp'>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div></div>      
+</div>
+
+
+
+
+<!-- AREA DEL ADBLOCK & MENSAJE INICIO -->
+
+<!DOCTYPE html>
+<p>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8" />
+			<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+			<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+			<title>Document</title>
+		</head>
+		<body id="boddy" style="background-color:#;color:#;">
+			<style type="text/css">
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #;
+}
+
+/* area de los estilos para el bloqueador */
+.cont-bloqueador {
+    background: #000000cf;
+    position: fixed;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 4s;
+    grid-gap: 1.5rem;
+    margin: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.cont-bloqueador .bloqueador {
+    padding: 12px;
+    width: 18rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.cont-bloqueador .bloqueador .error {
+    color: #ff0000;
+    overflow: hidden;
+    width: 8rem;
+    height: 8rem;
+    font-size: 20px;
+    border-radius: 2rem;
+    padding: 0;
+    margin: 0;
+}
+.cont-bloqueador .bloqueador h1 {
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: unset;
+    font-weight: 400;
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.cont-bloqueador .bloqueador p {
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+.cont-bloqueador .bloqueador .acceso {
+    background: #ffffff;
+    color: #;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 10rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+/* area de los estilos para el bloqueador */			</style>
+			<!-- area del contenido del bloqueador -->
+			<div class="cont-bloqueador" id="cont-bloqueador">
+				<div class="bloqueador">
+					<img alt="" class="error" src="<!DOCTYPE html>
+<html>
+    <head>
+        <title>PelisGoodFull</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    </head>
+    <body>
+
+<style> *{
+ margin:0;
+ }   </style>  
+<!-- AVISO OFF --> <div id="aviso_off" style="display:block; z-index:9999999;position:fixed;top:0px;left:0px;overflow:visible;height:100%;width:100%;background:rgba(0,0,0,.0);"> <div style="z-index:999999;position:fixed; overflow:visible; top:50%; left:50%; width:370px; margin-top:-220px; margin-left:-186px; background:#fff; color:#000000;font-size: 16px;border-radius: 20px; padding:20px;box-sizing:border-box; text-align:left;border: 2px solid black;"><a href="javascript:void(0);" style="float:right;padding:0 6px;box-sizing:border-box;background:#333;text-decoration:none;color:#fff;border-radius:5px;" onclick="document.getElementById('aviso_off').style.display='none';"><b></b></a>
+ <center>
+<img src="https://i.postimg.cc/3NZL02K3/20230629-151403.png" alt="">       
+  <center>
+ <span style="color: #E50505;"><span style="font-family:georgia,serif;">ADBLOCK DETECTADO
+    <p>
+<div></div>
+🔥 <span style="color: #000;"><span style="font-family:georgia,serif;"> Le pedimos por favor desactivar su bloqueador  de anuncios para poder acceder  <p>
+				<center>
+🔥 <span style="font-family:georgia,serif;"> Cierre la aplicación completamente y desactive su bloqueador y vuelva a ingresar</p>
+    <center>
+    <a href="http://action_exit"
+style="
+text-decoration:none;
+color:#fff;
+background:#E50505;
+padding:10px 10px;
+border-radius:10px;
+font-size:18px;
+"
+><span style="font-family:georgia,serif;">Salir</a></center >
+<br/>
+			</div>
+			<!-- area del contenido del bloqueador --><!-- detector de adblock --><!-- javascrip-para-el-elemento-preload --><script src="https://code.jquery.com/jquery-3.6.0.min.js"></script><script>
+// area de la funcion para el bloqueador
+$(document).ready(function(){
+
+  detectarBloqueador();
+  
+  });
+  
+  async function detectarBloqueador(){
+      const bloqueadorActivo = await checkAdBlocker();
+      if( bloqueadorActivo ){
+        document.getElementById("cont-bloqueador").style="display: flex";
+        document.getElementById("boddy").style="overflow: hidden;";
+      }else{
+        document.getElementById("cont-bloqueador").style="display: none";
+        document.getElementById("boddy").style="overflow: none;";
+      }
+  }
+  
+  async function checkAdBlocker() {
+  
+  let bloqueador;
+  
+  async function tryRequest() {
+      try {
+         return fetch(
+             new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", {
+                method: 'HEAD',
+                mode: 'no-cors'
+              }))
+              .then(function(response) {
+                bloqueador = false;
+                return bloqueador;
+              }).catch(function(e) {
+                bloqueador = true;
+                return bloqueador;
+          });
+      } catch (error) {
+            console.log(error);
+            bloqueador = true;
+            return bloqueador;
+      }
+  }
+  
+  return bloqueador !== undefined ? bloqueador : await tryRequest();
+  }
+// area de la funcion para el bloqueador
+</script>
+</body>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
